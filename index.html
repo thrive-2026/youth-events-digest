@@ -5,10 +5,12 @@
 :root{
 --tab-active-bg:#0a58ca;--tab-active-fg:#fff;
 --bg:#fff;--fg:#1c1c1e;--border:#e5e5ea;--pill:#f2f2f7;--link:#0a58ca;
+--lib-accent:#0a58ca;--town-accent:#b45309;--lib-on:#fff;--town-on:#fff;
 }
 @media (prefers-color-scheme: dark){
 :root{--bg:#1c1c1e;--fg:#f2f2f7;--border:#3a3a3c;--pill:#2c2c2e;--link:#5aa9ff;
---tab-active-bg:#5aa9ff;--tab-active-fg:#101010;}
+--tab-active-bg:#5aa9ff;--tab-active-fg:#101010;
+--lib-accent:#5aa9ff;--town-accent:#f0a35e;--lib-on:#101010;--town-on:#101010;}
 }
 body{font-family:-apple-system,system-ui,sans-serif;max-width:680px;margin:0 auto;padding:16px;color:var(--fg);line-height:1.55;background:var(--bg)}
 h1{font-size:1.35em}h2{font-size:1.1em;margin-top:1.2em;border-bottom:1px solid var(--border);padding-bottom:4px}
@@ -30,6 +32,10 @@ input[name="ysort"]{display:none}
 .subbar{display:flex;gap:6px;overflow-x:auto;padding:6px 0;margin-bottom:2px}
 .tlab{flex:0 0 auto;padding:7px 12px;border:1px solid var(--border);border-radius:999px;background:var(--pill);color:var(--fg);font-size:.85em;cursor:pointer;white-space:nowrap}
 .subbar .tlab{font-size:.78em;padding:5px 10px}
+.tabbar .tlab.tlab-main{font-size:1.02em;font-weight:700;padding:9px 18px;border-width:2px}
+.tlab-lib{border-color:var(--lib-accent);color:var(--lib-accent)}
+.tlab-town{border-color:var(--town-accent);color:var(--town-accent)}
+.tlab-notes{opacity:.65}
 .pane{display:none;animation:fade .18s ease}
 @keyframes fade{from{opacity:.4}to{opacity:1}}
 #dtab0:checked ~ .panes .p0dtab{display:block}
@@ -124,6 +130,8 @@ input[name="ysort"]{display:none}
 #dtabs20:checked ~ .tabbar label[for="dtabs20"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
 #dtabs21:checked ~ .tabbar label[for="dtabs21"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
 #dtabs22:checked ~ .tabbar label[for="dtabs22"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtab0:checked ~ .tabbar label[for="dtab0"].tlab-lib{background:var(--lib-accent);border-color:var(--lib-accent);color:var(--lib-on)}
+#dtab1:checked ~ .tabbar label[for="dtab1"].tlab-town{background:var(--town-accent);border-color:var(--town-accent);color:var(--town-on)}
 .nextup{font-size:.92em;margin:.5em 0}
 .nextup ul{margin:.2em 0}
 details.about{font-size:.92em;margin:.6em 0 1em;border:1px solid var(--border);border-radius:10px;background:var(--pill);padding:.55em .9em}
@@ -150,9 +158,9 @@ details.about ul{margin:.4em 0}
 <input type="radio" name="ysort" id="ysortt" checked>
 <input type="radio" name="ysort" id="ysortd">
 <div class="tabbar">
-<label class="tlab" for="dtab0">Library</label>
-<label class="tlab" for="dtab1">Around town</label>
-<label class="tlab" for="dtab2">Notes</label>
+<label class="tlab tlab-main tlab-lib" for="dtab0">Library</label>
+<label class="tlab tlab-main tlab-town" for="dtab1">Around town</label>
+<label class="tlab tlab-main tlab-notes" for="dtab2">Notes</label>
 <span class="sortseg"><label class="tlab slab" for="ysortt">Time</label><label class="tlab slab" for="ysortd">Closest</label></span>
 </div>
 <div class="panes">
