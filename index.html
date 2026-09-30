@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Youth events digest — Wed Sep 30 to Tue Oct 6 (27560)</title>
+<style>
+:root{
+--tab-active-bg:#0a58ca;--tab-active-fg:#fff;
+--bg:#fff;--fg:#1c1c1e;--border:#e5e5ea;--pill:#f2f2f7;--link:#0a58ca;
+}
+@media (prefers-color-scheme: dark){
+:root{--bg:#1c1c1e;--fg:#f2f2f7;--border:#3a3a3c;--pill:#2c2c2e;--link:#5aa9ff;
+--tab-active-bg:#5aa9ff;--tab-active-fg:#101010;}
+}
+body{font-family:-apple-system,system-ui,sans-serif;max-width:680px;margin:0 auto;padding:16px;color:var(--fg);line-height:1.55;background:var(--bg)}
+h1{font-size:1.35em}h2{font-size:1.1em;margin-top:1.2em;border-bottom:1px solid var(--border);padding-bottom:4px}
+h3{font-size:1em;margin-top:1.1em}
+ul{padding-left:1.2em}li{margin-bottom:6px}
+.v{color:#1a7f37;font-weight:600}.u{color:#8a6d00;font-weight:600}
+@media (prefers-color-scheme: dark){.v{color:#4cc38a}.u{color:#d8a93b}}
+hr{border:none;border-top:1px solid var(--border);margin:1.5em 0}
+a{color:var(--link)}
+input[name^="dtab"]{display:none}
+input[name="ysort"]{display:none}
+.sortseg{display:flex;gap:6px;align-items:center;margin-left:auto;padding-left:10px;border-left:1px solid var(--border);flex:0 0 auto}
+.panes ul.evd{display:none}
+#ysortd:checked ~ .panes ul.evt{display:none}
+#ysortd:checked ~ .panes ul.evd{display:block}
+#dtab2:checked ~ .tabbar .sortseg{display:none}
+.tabbar{position:sticky;top:0;background:var(--bg);padding:10px 0 8px;display:flex;gap:6px;overflow-x:auto;z-index:5;border-bottom:1px solid var(--border);margin-bottom:4px}
+.panes .tabbar{position:static}
+.subbar{display:flex;gap:6px;overflow-x:auto;padding:6px 0;margin-bottom:2px}
+.tlab{flex:0 0 auto;padding:7px 12px;border:1px solid var(--border);border-radius:999px;background:var(--pill);color:var(--fg);font-size:.85em;cursor:pointer;white-space:nowrap}
+.subbar .tlab{font-size:.78em;padding:5px 10px}
+.pane{display:none;animation:fade .18s ease}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+#dtab0:checked ~ .panes .p0dtab{display:block}
+#dtab1:checked ~ .panes .p1dtab{display:block}
+#dtab2:checked ~ .panes .p2dtab{display:block}
+#dtabs00:checked ~ .panes .p0dtabs0{display:block}
+#dtabs01:checked ~ .panes .p1dtabs0{display:block}
+#dtabs02:checked ~ .panes .p2dtabs0{display:block}
+#dtabs03:checked ~ .panes .p3dtabs0{display:block}
+#dtabs04:checked ~ .panes .p4dtabs0{display:block}
+#dtabs05:checked ~ .panes .p5dtabs0{display:block}
+#dtabs06:checked ~ .panes .p6dtabs0{display:block}
+#dtabs0s00:checked ~ .panes .p0dtabs0s0{display:block}
+#dtabs0s10:checked ~ .panes .p0dtabs0s1{display:block}
+#dtabs0s11:checked ~ .panes .p1dtabs0s1{display:block}
+#dtabs0s30:checked ~ .panes .p0dtabs0s3{display:block}
+#dtabs0s31:checked ~ .panes .p1dtabs0s3{display:block}
+#dtabs0s40:checked ~ .panes .p0dtabs0s4{display:block}
+#dtabs0s50:checked ~ .panes .p0dtabs0s5{display:block}
+#dtabs0s51:checked ~ .panes .p1dtabs0s5{display:block}
+#dtabs0s60:checked ~ .panes .p0dtabs0s6{display:block}
+#dtabs0s61:checked ~ .panes .p1dtabs0s6{display:block}
+#dtabs10:checked ~ .panes .p0dtabs1{display:block}
+#dtabs11:checked ~ .panes .p1dtabs1{display:block}
+#dtabs12:checked ~ .panes .p2dtabs1{display:block}
+#dtabs13:checked ~ .panes .p3dtabs1{display:block}
+#dtabs14:checked ~ .panes .p4dtabs1{display:block}
+#dtabs15:checked ~ .panes .p5dtabs1{display:block}
+#dtabs16:checked ~ .panes .p6dtabs1{display:block}
+#dtabs17:checked ~ .panes .p7dtabs1{display:block}
+#dtabs1s00:checked ~ .panes .p0dtabs1s0{display:block}
+#dtabs1s01:checked ~ .panes .p1dtabs1s0{display:block}
+#dtabs1s10:checked ~ .panes .p0dtabs1s1{display:block}
+#dtabs1s11:checked ~ .panes .p1dtabs1s1{display:block}
+#dtabs1s20:checked ~ .panes .p0dtabs1s2{display:block}
+#dtabs1s21:checked ~ .panes .p1dtabs1s2{display:block}
+#dtabs1s30:checked ~ .panes .p0dtabs1s3{display:block}
+#dtabs1s31:checked ~ .panes .p1dtabs1s3{display:block}
+#dtabs1s40:checked ~ .panes .p0dtabs1s4{display:block}
+#dtabs1s41:checked ~ .panes .p1dtabs1s4{display:block}
+#dtabs1s50:checked ~ .panes .p0dtabs1s5{display:block}
+#dtabs1s51:checked ~ .panes .p1dtabs1s5{display:block}
+#dtabs1s60:checked ~ .panes .p0dtabs1s6{display:block}
+#dtabs1s61:checked ~ .panes .p1dtabs1s6{display:block}
+#dtabs20:checked ~ .panes .p0dtabs2{display:block}
+#dtabs21:checked ~ .panes .p1dtabs2{display:block}
+#dtabs22:checked ~ .panes .p2dtabs2{display:block}
+#dtab0:checked ~ .tabbar label[for="dtab0"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtab1:checked ~ .tabbar label[for="dtab1"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtab2:checked ~ .tabbar label[for="dtab2"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#ysortt:checked ~ .tabbar label[for="ysortt"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#ysortd:checked ~ .tabbar label[for="ysortd"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs00:checked ~ .tabbar label[for="dtabs00"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs01:checked ~ .tabbar label[for="dtabs01"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs02:checked ~ .tabbar label[for="dtabs02"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs03:checked ~ .tabbar label[for="dtabs03"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs04:checked ~ .tabbar label[for="dtabs04"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs05:checked ~ .tabbar label[for="dtabs05"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs06:checked ~ .tabbar label[for="dtabs06"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s00:checked ~ .tabbar label[for="dtabs0s00"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s10:checked ~ .tabbar label[for="dtabs0s10"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s11:checked ~ .tabbar label[for="dtabs0s11"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s30:checked ~ .tabbar label[for="dtabs0s30"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s31:checked ~ .tabbar label[for="dtabs0s31"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s40:checked ~ .tabbar label[for="dtabs0s40"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s50:checked ~ .tabbar label[for="dtabs0s50"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s51:checked ~ .tabbar label[for="dtabs0s51"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s60:checked ~ .tabbar label[for="dtabs0s60"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs0s61:checked ~ .tabbar label[for="dtabs0s61"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs10:checked ~ .tabbar label[for="dtabs10"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs11:checked ~ .tabbar label[for="dtabs11"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs12:checked ~ .tabbar label[for="dtabs12"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs13:checked ~ .tabbar label[for="dtabs13"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs14:checked ~ .tabbar label[for="dtabs14"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs15:checked ~ .tabbar label[for="dtabs15"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs16:checked ~ .tabbar label[for="dtabs16"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs17:checked ~ .tabbar label[for="dtabs17"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s00:checked ~ .tabbar label[for="dtabs1s00"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s01:checked ~ .tabbar label[for="dtabs1s01"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s10:checked ~ .tabbar label[for="dtabs1s10"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s11:checked ~ .tabbar label[for="dtabs1s11"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s20:checked ~ .tabbar label[for="dtabs1s20"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s21:checked ~ .tabbar label[for="dtabs1s21"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s30:checked ~ .tabbar label[for="dtabs1s30"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s31:checked ~ .tabbar label[for="dtabs1s31"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s40:checked ~ .tabbar label[for="dtabs1s40"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s41:checked ~ .tabbar label[for="dtabs1s41"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s50:checked ~ .tabbar label[for="dtabs1s50"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s51:checked ~ .tabbar label[for="dtabs1s51"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s60:checked ~ .tabbar label[for="dtabs1s60"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs1s61:checked ~ .tabbar label[for="dtabs1s61"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs20:checked ~ .tabbar label[for="dtabs20"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs21:checked ~ .tabbar label[for="dtabs21"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+#dtabs22:checked ~ .tabbar label[for="dtabs22"]{background:var(--tab-active-bg);color:var(--tab-active-fg);border-color:var(--tab-active-bg)}
+.nextup{font-size:.92em;margin:.5em 0}
+.nextup ul{margin:.2em 0}
+details.about{font-size:.92em;margin:.6em 0 1em;border:1px solid var(--border);border-radius:10px;background:var(--pill);padding:.55em .9em}
+details.about summary{cursor:pointer;font-weight:600}
+details.about ul{margin:.4em 0}
+</style></head><body>
+<h1>Youth events digest — Wed Sep 30 to Tue Oct 6 (27560)</h1>
+<div class="nextup"><ul>
+<li><strong>Next update:</strong> Sun Oct 4, 2026 — this digest refreshes every 5 days.</li>
+</ul></div>
+<details class="about"><summary>About this digest</summary><ul>
+<li><strong>Window:</strong> Wed Sep 30, 2026 through Tue Oct 6, 2026 — 7 days. Weekdays verified via <code>date -d</code>.</li>
+<li><strong>Home base:</strong> ZIP 27560 (Morrisville, NC). <strong>Distances:</strong> est. driving miles from 27560 (haversine × 1.3 road-circuity), reused from the sweep files where available.</li>
+<li><strong>Coverage:</strong> ages 10–19 only — tweens, teens, and older teens. Young-kids-only and adult-only (20+) events excluded; all-ages events relevant to 10–19 included.</li>
+<li><strong>Verification:</strong> <span class="v">[V]</span> = verified today (Tue 9/29) on a live page. <span class="u">[U]</span> = recurring schedule, search-index listing, or otherwise not fully confirmed today.</li>
+<li><strong>Flags:</strong> many non-library sources are PAID — costs shown distinctly. "Registration required" means sign up ahead; "drop-in" means just show up.</li>
+<li><strong>Layout:</strong> two tabs — <strong>Library</strong> and <strong>Around town</strong> — each organized by day; every day splits into <strong>Morning</strong> / <strong>Evening</strong> sub-tabs with bullets in start-time order (untimed items first). Tech &amp; AI events are folded into the day lists. Every event title links to its event page where available, else its venue calendar.</li>
+<li><strong>Late add ~11:30 PM PT:</strong> 11 Wake County teen events merged after a live-browser pass on the county calendar's teen filter (see Notes) — plus Henna Art (West Regional, Wed 9/30) from the county's September press release.</li>
+</ul></details>
+<div class="tabs">
+<input type="radio" name="dtab" id="dtab0" checked>
+<input type="radio" name="dtab" id="dtab1">
+<input type="radio" name="dtab" id="dtab2">
+<input type="radio" name="ysort" id="ysortt" checked>
+<input type="radio" name="ysort" id="ysortd">
+<div class="tabbar">
+<label class="tlab" for="dtab0">Library</label>
+<label class="tlab" for="dtab1">Around town</label>
+<label class="tlab" for="dtab2">Notes</label>
+<span class="sortseg"><label class="tlab slab" for="ysortt">Time</label><label class="tlab slab" for="ysortd">Closest</label></span>
+</div>
+<div class="panes">
+<section class="pane p0dtab"><input type="radio" name="dtabs0" id="dtabs00" checked>
+<input type="radio" name="dtabs0" id="dtabs01">
+<input type="radio" name="dtabs0" id="dtabs02">
+<input type="radio" name="dtabs0" id="dtabs03">
+<input type="radio" name="dtabs0" id="dtabs04">
+<input type="radio" name="dtabs0" id="dtabs05">
+<input type="radio" name="dtabs0" id="dtabs06">
+<div class="tabbar">
+<label class="tlab" for="dtabs00">Wed 9/30</label>
+<label class="tlab" for="dtabs01">Thu 10/1</label>
+<label class="tlab" for="dtabs02">Fri 10/2</label>
+<label class="tlab" for="dtabs03">Sat 10/3</label>
+<label class="tlab" for="dtabs04">Sun 10/4</label>
+<label class="tlab" for="dtabs05">Mon 10/5</label>
+<label class="tlab" for="dtabs06">Tue 10/6</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs0"><input type="radio" name="dtabs0s0" id="dtabs0s00" checked>
+<div class="tabbar">
+<label class="tlab" for="dtabs0s00">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs0s0"><ul class="evt">
+<li><strong>East Regional (Durham County), Durham (14 mi)</strong> — <a href="https://durhamcountylibrary.org/person/iris/">Family Spotlight: Ceramic Flower Painting</a>, 4:30–5:00 PM, ages listed Elementary/Tweens 9–12 (overlaps ages 10–12 only), free, registration required, all materials provided <span class="u">[U]</span></li>
+<li><strong>West Regional (Wake County), Cary (3 mi)</strong> — <a href="https://world.einnews.com/pr_news/937515255/wake-county-public-libraries-celebrates-music-dance-and-the-arts-in-september">Henna Art</a>, 6:00–7:00 PM, free, hands-on henna workshop (history + cultural significance; participants receive a small natural henna design) <span class="u">[U]</span> (age band unstated in the county's September Music/Dance/Arts Month release — billed "for everyone"; 4000 Louis Stephens Dr)</li>
+<li><strong>Chapel Hill Public Library, Chapel Hill (18 mi)</strong> — <a href="https://www.chapelhillpubliclibrary.org/events/month">Craft Night</a>, 6:00–8:00 PM, teens/adults, free, drop-in (September project: Junk Journaling) <span class="v">[V]</span></li>
+<li><strong>East Regional (Wake County), Knightdale (25 mi)</strong> — <a href="https://www.wake.gov/events/anime-cafe-6">Anime Café</a>, 6:00–7:00 PM, Teens, free <span class="v">[V]</span> (946 Steeple Square Ct)</li>
+<li><strong>Virtual</strong> — <a href="https://www.wake.gov/events/fafsa-overview-cfnc-9">FAFSA Overview with CFNC</a>, 6:00–7:00 PM, Teens, cost not stated, registration required for Zoom link <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>West Regional (Wake County), Cary (3 mi)</strong> — <a href="https://world.einnews.com/pr_news/937515255/wake-county-public-libraries-celebrates-music-dance-and-the-arts-in-september">Henna Art</a>, 6:00–7:00 PM, free, hands-on henna workshop (history + cultural significance; participants receive a small natural henna design) <span class="u">[U]</span> (age band unstated in the county's September Music/Dance/Arts Month release — billed "for everyone"; 4000 Louis Stephens Dr)</li>
+<li><strong>East Regional (Durham County), Durham (14 mi)</strong> — <a href="https://durhamcountylibrary.org/person/iris/">Family Spotlight: Ceramic Flower Painting</a>, 4:30–5:00 PM, ages listed Elementary/Tweens 9–12 (overlaps ages 10–12 only), free, registration required, all materials provided <span class="u">[U]</span></li>
+<li><strong>Chapel Hill Public Library, Chapel Hill (18 mi)</strong> — <a href="https://www.chapelhillpubliclibrary.org/events/month">Craft Night</a>, 6:00–8:00 PM, teens/adults, free, drop-in (September project: Junk Journaling) <span class="v">[V]</span></li>
+<li><strong>East Regional (Wake County), Knightdale (25 mi)</strong> — <a href="https://www.wake.gov/events/anime-cafe-6">Anime Café</a>, 6:00–7:00 PM, Teens, free <span class="v">[V]</span> (946 Steeple Square Ct)</li>
+<li><strong>Virtual</strong> — <a href="https://www.wake.gov/events/fafsa-overview-cfnc-9">FAFSA Overview with CFNC</a>, 6:00–7:00 PM, Teens, cost not stated, registration required for Zoom link <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p1dtabs0"><input type="radio" name="dtabs0s1" id="dtabs0s10" checked>
+<input type="radio" name="dtabs0s1" id="dtabs0s11">
+<div class="tabbar">
+<label class="tlab" for="dtabs0s10">Morning</label>
+<label class="tlab" for="dtabs0s11">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs0s1"><ul class="evt">
+<li><strong>Public Library of Johnston County &amp; Smithfield, Smithfield (45 mi)</strong> — <a href="https://www.govserv.org/US/Smithfield/354425515176/Public-Library-of-Johnston-County-and-Smithfield">Weave Your Own Ghost Plushie Pal</a>, time not listed, ages not stated, free, pre-registration required (few spots left — register via skye@pljcs.org or the forms.gle link in the library's post) <span class="u">[U]</span></li>
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/location/north-regional-library/">Homeschool Learning Lab Teens</a>, 10:00–11:00 AM, teens, free <span class="u">[U]</span> (location page confirms "meets weekly on Thursdays"; instance time from the Sep 24 posting)</li>
+</ul><ul class="evd">
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/location/north-regional-library/">Homeschool Learning Lab Teens</a>, 10:00–11:00 AM, teens, free <span class="u">[U]</span> (location page confirms "meets weekly on Thursdays"; instance time from the Sep 24 posting)</li>
+<li><strong>Public Library of Johnston County &amp; Smithfield, Smithfield (45 mi)</strong> — <a href="https://www.govserv.org/US/Smithfield/354425515176/Public-Library-of-Johnston-County-and-Smithfield">Weave Your Own Ghost Plushie Pal</a>, time not listed, ages not stated, free, pre-registration required (few spots left — register via skye@pljcs.org or the forms.gle link in the library's post) <span class="u">[U]</span></li>
+</ul></section>
+<section class="pane p1dtabs0s1"><ul class="evt">
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/person/dominique/">Craft &amp; Connect</a>, 3:30–5:00 PM, ages High School / Middle School / Teen / Tweens 9–12, free <span class="v">[V]</span> (live staff page, loaded today)</li>
+<li><strong>Chapel Hill Public Library, Chapel Hill (18 mi)</strong> — <a href="https://chapelhillpl.librarycalendar.com/events/feed/html?_wrapper_format=lc_calendar_feed&amp;current_date=2026-10-01&amp;ongoing_events=hide">Lock O'Clock</a>, 4:00–6:00 PM, teens, free, after-school drop-in (distraction-free study zone, Teen Room) <span class="v">[V]</span></li>
+<li><strong>South Branch (Granville County), Creedmoor (30 mi)</strong> — <a href="https://www.govserv.org/US/Oxford/399082856794101/Granville-County-Library-System">Craft Time</a>, 4:00 PM, ages not stated (appears to be an all-ages/children's craft), free, drop-in <span class="u">[U]</span> (recurring Thursday pattern per 9/13 Facebook post; 10/1 date unconfirmed)</li>
+<li><strong>Harnett County Main Library, Lillington (36 mi)</strong> — <a href="https://harnett.libcal.com/event/12875902">Teen Hangout - Main</a>, 4:30–6:00 PM, ages 12–18, free, drop-in <span class="u">[U]</span> (series page re-verified live today; Oct 1 instance inferred from "1st &amp; 3rd Thursday" pattern)</li>
+<li><strong>Morrisville Community (Wake County), Morrisville (0.5 mi)</strong> — <a href="https://www.wake.gov/events/teen-special-event-tobacco-101-project-open-air-creator-lab">Teen Special Event: Tobacco 101 + Project Open Air Creator Lab</a>, 6:00–7:00 PM, 310 Town Hall Drive, for teens in grades 6–12 and their parents, free, Eventbrite SIGN UP <span class="v">[V]</span></li>
+<li><strong>Eva Perry Regional (Wake County), Apex (7 mi)</strong> — <a href="https://www.wake.gov/events/teen-halloween-wreaths-0">Teen - Halloween Wreaths!</a>, 6:30–7:30 PM, grades 6–12 only, free, no registration required <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>Morrisville Community (Wake County), Morrisville (0.5 mi)</strong> — <a href="https://www.wake.gov/events/teen-special-event-tobacco-101-project-open-air-creator-lab">Teen Special Event: Tobacco 101 + Project Open Air Creator Lab</a>, 6:00–7:00 PM, 310 Town Hall Drive, for teens in grades 6–12 and their parents, free, Eventbrite SIGN UP <span class="v">[V]</span></li>
+<li><strong>Eva Perry Regional (Wake County), Apex (7 mi)</strong> — <a href="https://www.wake.gov/events/teen-halloween-wreaths-0">Teen - Halloween Wreaths!</a>, 6:30–7:30 PM, grades 6–12 only, free, no registration required <span class="v">[V]</span></li>
+<li><strong>Chapel Hill Public Library, Chapel Hill (18 mi)</strong> — <a href="https://chapelhillpl.librarycalendar.com/events/feed/html?_wrapper_format=lc_calendar_feed&amp;current_date=2026-10-01&amp;ongoing_events=hide">Lock O'Clock</a>, 4:00–6:00 PM, teens, free, after-school drop-in (distraction-free study zone, Teen Room) <span class="v">[V]</span></li>
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/person/dominique/">Craft &amp; Connect</a>, 3:30–5:00 PM, ages High School / Middle School / Teen / Tweens 9–12, free <span class="v">[V]</span> (live staff page, loaded today)</li>
+<li><strong>South Branch (Granville County), Creedmoor (30 mi)</strong> — <a href="https://www.govserv.org/US/Oxford/399082856794101/Granville-County-Library-System">Craft Time</a>, 4:00 PM, ages not stated (appears to be an all-ages/children's craft), free, drop-in <span class="u">[U]</span> (recurring Thursday pattern per 9/13 Facebook post; 10/1 date unconfirmed)</li>
+<li><strong>Harnett County Main Library, Lillington (36 mi)</strong> — <a href="https://harnett.libcal.com/event/12875902">Teen Hangout - Main</a>, 4:30–6:00 PM, ages 12–18, free, drop-in <span class="u">[U]</span> (series page re-verified live today; Oct 1 instance inferred from "1st &amp; 3rd Thursday" pattern)</li>
+</ul></section>
+</div></section>
+<section class="pane p2dtabs0"><p><em>No other library youth events found for this day — see Around town.</em></p></section>
+<section class="pane p3dtabs0"><input type="radio" name="dtabs0s3" id="dtabs0s30" checked>
+<input type="radio" name="dtabs0s3" id="dtabs0s31">
+<div class="tabbar">
+<label class="tlab" for="dtabs0s30">Morning</label>
+<label class="tlab" for="dtabs0s31">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs0s3"><ul>
+<li><strong>Orange Main Library (Orange County), Hillsborough (30 mi)</strong> — <a href="https://orangecountync.librarycalendar.com/events/list?age_groups%5B133%5D=133">Taekwondo: From Beginner to Black Belt</a>, 11:00 AM–12:00 PM, listed audience Families / Young Child / K–2nd / 3rd–5th (presentation includes a local teen's Taekwondo journey — relevant to teens), free, registration enabled <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs0s3"><ul class="evt">
+<li><strong>Chatham Community Library, Pittsboro (28 mi)</strong> — <a href="https://www.chathamcountync.gov/Home/Components/News/News/17638/19">The Clothesline Project (Second Bloom of Chatham)</a>, 12:00–3:00 PM, ages not stated (Domestic Violence Awareness Month display; topic suits older teens), free, open to public, Holmes Family Meeting Room <span class="v">[V]</span></li>
+<li><strong>Athens Drive (Wake County), Raleigh (10 mi)</strong> — <a href="https://www.eventbrite.ca/d/nc--raleigh/teen/">Teens: Spooky Trivia</a>, 1:00 PM (end time not stated), teens, free <span class="v">[V]</span></li>
+<li><strong>Green Rd (Wake County), Raleigh (17 mi)</strong> — <a href="https://www.wake.gov/events/takiri-folclor-academy">Takiri Folclor Academy</a>, 2:00–3:00 PM, all ages (Hispanic Heritage Month music/dance), free, drop-in <span class="v">[V]</span></li>
+<li><strong>East Regional (Wake County), Knightdale (25 mi)</strong> — <a href="https://www.wake.gov/events/teen-dungeons-and-dragons-4">Teen Dungeons and Dragons</a>, 2:00–5:00 PM, Teens, free <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>Athens Drive (Wake County), Raleigh (10 mi)</strong> — <a href="https://www.eventbrite.ca/d/nc--raleigh/teen/">Teens: Spooky Trivia</a>, 1:00 PM (end time not stated), teens, free <span class="v">[V]</span></li>
+<li><strong>Green Rd (Wake County), Raleigh (17 mi)</strong> — <a href="https://www.wake.gov/events/takiri-folclor-academy">Takiri Folclor Academy</a>, 2:00–3:00 PM, all ages (Hispanic Heritage Month music/dance), free, drop-in <span class="v">[V]</span></li>
+<li><strong>East Regional (Wake County), Knightdale (25 mi)</strong> — <a href="https://www.wake.gov/events/teen-dungeons-and-dragons-4">Teen Dungeons and Dragons</a>, 2:00–5:00 PM, Teens, free <span class="v">[V]</span></li>
+<li><strong>Chatham Community Library, Pittsboro (28 mi)</strong> — <a href="https://www.chathamcountync.gov/Home/Components/News/News/17638/19">The Clothesline Project (Second Bloom of Chatham)</a>, 12:00–3:00 PM, ages not stated (Domestic Violence Awareness Month display; topic suits older teens), free, open to public, Holmes Family Meeting Room <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p4dtabs0"><input type="radio" name="dtabs0s4" id="dtabs0s40" checked>
+<div class="tabbar">
+<label class="tlab" for="dtabs0s40">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs0s4"><ul>
+<li><strong>Orange Southern Branch (Orange County), Carrboro (19 mi)</strong> — <a href="https://orangecountync.librarycalendar.com/events/list?age_groups%5B99%5D=99">LEGO Spook-tacular at Southern</a>, 12:00–5:00 PM, ages include Families / K–2nd / 3rd–5th / <strong>Middle School / High School</strong>, free, drop-in ("build a SPOOK-tacular creation") <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p5dtabs0"><input type="radio" name="dtabs0s5" id="dtabs0s50" checked>
+<input type="radio" name="dtabs0s5" id="dtabs0s51">
+<div class="tabbar">
+<label class="tlab" for="dtabs0s50">Morning</label>
+<label class="tlab" for="dtabs0s51">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs0s5"><ul>
+<li><strong>Orange Main Library (Orange County), Hillsborough (30 mi)</strong> — <a href="https://orangecountync.librarycalendar.com/events/feed/html?_wrapper_format=lc_calendar_feed&amp;current_date=2026-10-05&amp;ongoing_events=hide">Knit or Crochet a Hat for a Community Member</a>, all day (ongoing service-project display — Acorn Caps Hat Drive), ages include Families / <strong>Middle School / High School</strong> / Adults / Everyone, free <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs0s5"><ul class="evt">
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/person/dominique/">Make It Monday</a>, 3:30–5:00 PM, ages High School / Middle School / Teen / Tweens 9–12, free, hands-on STEAM program <span class="v">[V]</span> (live staff page, loaded today — new find this refresh)</li>
+<li><strong>Northeast Regional (Wake County), Raleigh (24 mi)</strong> — <a href="https://www.wake.gov/events/teen-fresh-salsa-fun">Teen: Fresh Salsa Fun</a>, 5:30–6:30 PM, grades 6–12 welcome, free <span class="v">[V]</span></li>
+<li><strong>Southeast Regional (Wake County), Garner (18 mi)</strong> — <a href="https://www.wake.gov/events/bagel-bites-book-club">BAGEL BITES &amp; BOOK CLUB</a>, 6:00–7:00 PM, Teens, free <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>Southeast Regional (Wake County), Garner (18 mi)</strong> — <a href="https://www.wake.gov/events/bagel-bites-book-club">BAGEL BITES &amp; BOOK CLUB</a>, 6:00–7:00 PM, Teens, free <span class="v">[V]</span></li>
+<li><strong>Northeast Regional (Wake County), Raleigh (24 mi)</strong> — <a href="https://www.wake.gov/events/teen-fresh-salsa-fun">Teen: Fresh Salsa Fun</a>, 5:30–6:30 PM, grades 6–12 welcome, free <span class="v">[V]</span></li>
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/person/dominique/">Make It Monday</a>, 3:30–5:00 PM, ages High School / Middle School / Teen / Tweens 9–12, free, hands-on STEAM program <span class="v">[V]</span> (live staff page, loaded today — new find this refresh)</li>
+</ul></section>
+</div></section>
+<section class="pane p6dtabs0"><input type="radio" name="dtabs0s6" id="dtabs0s60" checked>
+<input type="radio" name="dtabs0s6" id="dtabs0s61">
+<div class="tabbar">
+<label class="tlab" for="dtabs0s60">Morning</label>
+<label class="tlab" for="dtabs0s61">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs0s6"><ul>
+<li><strong>Duke University Libraries (online)</strong> — <a href="https://duke.libcal.com/event/17242198">Visualizing data with ChatGPT</a>, 10:00–11:00 AM, online workshop (Zoom link emailed to registrants), age policy unverified (university data workshop; page states "open to non-Duke participants"), cost not stated (no price shown; Duke Libraries workshops typically free), LibCal registration required <span class="v">[V event page loaded live; time from Duke Libraries September 2026 data newsletter]</span></li>
+</ul></section>
+<section class="pane p1dtabs0s6"><ul class="evt">
+<li><strong>Harnett County Main Library, Lillington (36 mi)</strong> — <a href="http://harnett.libcal.com/event/17047709">Read Between the Beats - Main</a>, 2:00–4:00 PM, ages 13–18, free, drop-in <span class="u">[U]</span> (series page re-verified live today; Oct 6 instance inferred from "every first Tuesday" pattern)</li>
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/person/dominique/">Teen Game Day!</a>, 3:30–5:00 PM, ages High School / Middle School / Teen / Tweens 9–12, free <span class="v">[V]</span> (live staff page, loaded today)</li>
+<li><strong>West Regional (Wake County), Cary (3 mi)</strong> — <a href="https://www.wake.gov/events/teens-memory-boxes">Teens: Memory Boxes</a>, 5:00–6:00 PM, Teens, free <span class="v">[V]</span></li>
+<li><strong>East Regional (Wake County), Knightdale (25 mi)</strong> — <a href="https://www.wake.gov/events/moonlight-walk-royal-book-bash">Moonlight Walk: Royal Book Bash</a>, 6:00–8:00 PM, all ages (incl. Teens), free, no registration required <span class="v">[V]</span></li>
+<li><strong>Oberlin Regional (Wake County), Raleigh (13 mi)</strong> — <a href="https://www.wake.gov/events/teen-program-murder-mystery-murder-pumpkin-hollow">Teen Program: Murder Mystery – Murder in Pumpkin Hollow</a>, 6:30–7:30 PM, grades 6–12, free, Eventbrite SIGN UP ("Come with friends in your Halloween attire") <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>West Regional (Wake County), Cary (3 mi)</strong> — <a href="https://www.wake.gov/events/teens-memory-boxes">Teens: Memory Boxes</a>, 5:00–6:00 PM, Teens, free <span class="v">[V]</span></li>
+<li><strong>Oberlin Regional (Wake County), Raleigh (13 mi)</strong> — <a href="https://www.wake.gov/events/teen-program-murder-mystery-murder-pumpkin-hollow">Teen Program: Murder Mystery – Murder in Pumpkin Hollow</a>, 6:30–7:30 PM, grades 6–12, free, Eventbrite SIGN UP ("Come with friends in your Halloween attire") <span class="v">[V]</span></li>
+<li><strong>North Regional (Durham County), Durham (25 mi)</strong> — <a href="https://durhamcountylibrary.org/person/dominique/">Teen Game Day!</a>, 3:30–5:00 PM, ages High School / Middle School / Teen / Tweens 9–12, free <span class="v">[V]</span> (live staff page, loaded today)</li>
+<li><strong>East Regional (Wake County), Knightdale (25 mi)</strong> — <a href="https://www.wake.gov/events/moonlight-walk-royal-book-bash">Moonlight Walk: Royal Book Bash</a>, 6:00–8:00 PM, all ages (incl. Teens), free, no registration required <span class="v">[V]</span></li>
+<li><strong>Harnett County Main Library, Lillington (36 mi)</strong> — <a href="http://harnett.libcal.com/event/17047709">Read Between the Beats - Main</a>, 2:00–4:00 PM, ages 13–18, free, drop-in <span class="u">[U]</span> (series page re-verified live today; Oct 6 instance inferred from "every first Tuesday" pattern)</li>
+</ul></section>
+</div></section>
+</div></section>
+<section class="pane p1dtab"><input type="radio" name="dtabs1" id="dtabs10" checked>
+<input type="radio" name="dtabs1" id="dtabs11">
+<input type="radio" name="dtabs1" id="dtabs12">
+<input type="radio" name="dtabs1" id="dtabs13">
+<input type="radio" name="dtabs1" id="dtabs14">
+<input type="radio" name="dtabs1" id="dtabs15">
+<input type="radio" name="dtabs1" id="dtabs16">
+<input type="radio" name="dtabs1" id="dtabs17">
+<div class="tabbar">
+<label class="tlab" for="dtabs10">Wed 9/30</label>
+<label class="tlab" for="dtabs11">Thu 10/1</label>
+<label class="tlab" for="dtabs12">Fri 10/2</label>
+<label class="tlab" for="dtabs13">Sat 10/3</label>
+<label class="tlab" for="dtabs14">Sun 10/4</label>
+<label class="tlab" for="dtabs15">Mon 10/5</label>
+<label class="tlab" for="dtabs16">Tue 10/6</label>
+<label class="tlab" for="dtabs17">Notes</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1"><input type="radio" name="dtabs1s0" id="dtabs1s00" checked>
+<input type="radio" name="dtabs1s0" id="dtabs1s01">
+<div class="tabbar">
+<label class="tlab" for="dtabs1s00">Morning</label>
+<label class="tlab" for="dtabs1s01">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1s0"><ul class="evt">
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Take a Child Outside Week</a>, Wed 9/30, 9:00 AM–4:30 PM, JC Raulston Arboretum <span class="v">[V]</span></li>
+<li>Live Animal Feeding – Ocean Habitat: Wed 9/30, 10:45–11:00 AM; Fri 10/2, 10:45–11:00 AM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Sidewalk Symposium</a>, Wed 9/30, 11:00 AM–12:30 PM, D.H. Hill Jr. Library <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Take a Child Outside Week</a>, Wed 9/30, 9:00 AM–4:30 PM, JC Raulston Arboretum <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Sidewalk Symposium</a>, Wed 9/30, 11:00 AM–12:30 PM, D.H. Hill Jr. Library <span class="v">[V]</span></li>
+<li>Live Animal Feeding – Ocean Habitat: Wed 9/30, 10:45–11:00 AM; Fri 10/2, 10:45–11:00 AM. Ages not stated. Free. <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs1s0"><ul class="evt">
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Centennial SoundBites: Live Music and Lunch</a>, Wed 9/30, 12:00–1:00 PM, Venture Center Courtyard <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">SLE Power Hour Trivia</a>, Wed 9/30, 12:00–1:30 PM, Talley Student Union 4210 <span class="v">[V]</span></li>
+<li>Board Game Night, Gizmo Brew Works, Durham (~16 mi), 12:00–10:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li>Migrating Monarchs: Wed 9/30, 1:00–3:00 PM. All-ages/family. Free. <span class="v">[V]</span></li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">CatVideo Fest 2026</a>, Wed 9/30, 2:00 PM and Thu 10/1, 7:00 PM, all ages</li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Game for Growth</a>, Wed 9/30, 3:00–4:30 PM, Talley Student Union 4132 <span class="v">[V]</span></li>
+<li><strong>Code Ninjas Morrisville/Cary, Morrisville (1.7 mi)</strong> — <a href="https://beakid.com/nc/morrisville/code-ninjas-morrisville-cary-address">Code Ninjas CREATE weekly coding sessions</a>, 3:30–7:00 PM, 3033 Village Market Place, ages 7–14 (ages 10–14 overlap the band), cost not stated (subscription/membership-based program), enrollment/membership required <span class="u">[U]</span> (hours from a third-party business profile, not re-confirmed live)</li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Women's Center Book Club</a>, Wed 9/30, 5:00–6:00 PM, Talley Student Union 5210 <span class="v">[V]</span></li>
+<li>Sunset Music Series at Waverly Place: 8 Track Minds, Cary (~8 mi), 5:30–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Free Acro Yoga at Pullen Park, Raleigh (~14 mi), 5:30–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>Flyleaf Books, Chapel Hill (18.6 mi)</strong> — <a href="https://flyleafbooks.com/events">Live music: songs &amp; conversation with NC musicians</a>, Wed 9/30, 6:00–7:30 PM, ages not stated, cost not stated, drop-in <span class="v">[V]</span></li>
+<li>Play chess with Durham Chess Club (all ages and levels), Durham Food Hall, Durham (~16 mi), 6:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>The Oak City Salsa Social — Live Band Music and Dance Series, Gipson Play Plaza, Dix Park, Raleigh (~14 mi), 6:00–9:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Box Making for Beginners, Wed 9/30, 6:00–9:00 PM, ShopSpace (Midtown), ages not stated, cost not on card <span class="v">[V]</span></li>
+<li><strong>Quail Ridge Books, Raleigh (13.6 mi)</strong> — <a href="https://quailridgebooks.com/events">Author event: "You Are Protected" — Michelle, in conversation with Brent Winter</a>, Wed 9/30, 6:30 PM (end time not stated), ages not stated, ticketed (ticket includes copy of the book; check price on event page), ticket required via event page, signing after <span class="v">[V]</span></li>
+<li><strong>American Tobacco Campus, Durham (16 mi)</strong> — <a href="https://arts.duke.edu/duke-arts-at-american-tobacco/">Madison Cunningham (free outdoor concert, series finale)</a>, Wed 9/30, 6:30 PM, all ages, FREE, no tickets/registration; bring a chair/blanket (weather permitting) <span class="v">[V]</span></li>
+<li>Raleigh Drum Circle and Hoop Jam, Pullen Park, Raleigh (~14 mi), 7:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Bluegrass Jam (pay what you can), Sonark Farms, Hillsborough (~22 mi), 7:00 PM, ages not stated, pay what you can <span class="v">[V]</span></li>
+<li>Ballroom Dancing Social with Pullen Dance, Pullen Community Center, Raleigh (~14 mi), 7:00–9:00 PM, ages not stated, <strong>$5</strong>, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Modern Calligraphy and Pumpkin Lettering Workshop, Wed 9/30, 7:00–8:30 PM, Wye Hill Kitchen &amp; Brewing, ages not stated, cost not on card — verify <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Tony</a>, Wed 9/30, 7:00 PM and Thu 10/1, 2:00 PM, ages not stated</li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://tourlala.com/venues/the-ritz---raleigh-raleigh-nc">José Madero</a>, Wed 9/30, 7:00 PM</li>
+<li>Open Mic Night, Abbey Road Cary, Cary (~8 mi), 8:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Red October, Mary Anna, and Hemlock Theory Live, Wed 9/30, 8:00 PM, Chapel of Bones (West Raleigh), ages not stated, cost not on card <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>Code Ninjas Morrisville/Cary, Morrisville (1.7 mi)</strong> — <a href="https://beakid.com/nc/morrisville/code-ninjas-morrisville-cary-address">Code Ninjas CREATE weekly coding sessions</a>, 3:30–7:00 PM, 3033 Village Market Place, ages 7–14 (ages 10–14 overlap the band), cost not stated (subscription/membership-based program), enrollment/membership required <span class="u">[U]</span> (hours from a third-party business profile, not re-confirmed live)</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">CatVideo Fest 2026</a>, Wed 9/30, 2:00 PM and Thu 10/1, 7:00 PM, all ages</li>
+<li>Sunset Music Series at Waverly Place: 8 Track Minds, Cary (~8 mi), 5:30–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Tony</a>, Wed 9/30, 7:00 PM and Thu 10/1, 2:00 PM, ages not stated</li>
+<li>Open Mic Night, Abbey Road Cary, Cary (~8 mi), 8:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Centennial SoundBites: Live Music and Lunch</a>, Wed 9/30, 12:00–1:00 PM, Venture Center Courtyard <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">SLE Power Hour Trivia</a>, Wed 9/30, 12:00–1:30 PM, Talley Student Union 4210 <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Game for Growth</a>, Wed 9/30, 3:00–4:30 PM, Talley Student Union 4132 <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Women's Center Book Club</a>, Wed 9/30, 5:00–6:00 PM, Talley Student Union 5210 <span class="v">[V]</span></li>
+<li><strong>Quail Ridge Books, Raleigh (13.6 mi)</strong> — <a href="https://quailridgebooks.com/events">Author event: "You Are Protected" — Michelle, in conversation with Brent Winter</a>, Wed 9/30, 6:30 PM (end time not stated), ages not stated, ticketed (ticket includes copy of the book; check price on event page), ticket required via event page, signing after <span class="v">[V]</span></li>
+<li>Free Acro Yoga at Pullen Park, Raleigh (~14 mi), 5:30–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>The Oak City Salsa Social — Live Band Music and Dance Series, Gipson Play Plaza, Dix Park, Raleigh (~14 mi), 6:00–9:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Box Making for Beginners, Wed 9/30, 6:00–9:00 PM, ShopSpace (Midtown), ages not stated, cost not on card <span class="v">[V]</span></li>
+<li>Raleigh Drum Circle and Hoop Jam, Pullen Park, Raleigh (~14 mi), 7:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Ballroom Dancing Social with Pullen Dance, Pullen Community Center, Raleigh (~14 mi), 7:00–9:00 PM, ages not stated, <strong>$5</strong>, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Modern Calligraphy and Pumpkin Lettering Workshop, Wed 9/30, 7:00–8:30 PM, Wye Hill Kitchen &amp; Brewing, ages not stated, cost not on card — verify <span class="v">[V]</span></li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://tourlala.com/venues/the-ritz---raleigh-raleigh-nc">José Madero</a>, Wed 9/30, 7:00 PM</li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Red October, Mary Anna, and Hemlock Theory Live, Wed 9/30, 8:00 PM, Chapel of Bones (West Raleigh), ages not stated, cost not on card <span class="v">[V]</span></li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li>Board Game Night, Gizmo Brew Works, Durham (~16 mi), 12:00–10:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li>Play chess with Durham Chess Club (all ages and levels), Durham Food Hall, Durham (~16 mi), 6:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>American Tobacco Campus, Durham (16 mi)</strong> — <a href="https://arts.duke.edu/duke-arts-at-american-tobacco/">Madison Cunningham (free outdoor concert, series finale)</a>, Wed 9/30, 6:30 PM, all ages, FREE, no tickets/registration; bring a chair/blanket (weather permitting) <span class="v">[V]</span></li>
+<li><strong>Flyleaf Books, Chapel Hill (18.6 mi)</strong> — <a href="https://flyleafbooks.com/events">Live music: songs &amp; conversation with NC musicians</a>, Wed 9/30, 6:00–7:30 PM, ages not stated, cost not stated, drop-in <span class="v">[V]</span></li>
+<li>Bluegrass Jam (pay what you can), Sonark Farms, Hillsborough (~22 mi), 7:00 PM, ages not stated, pay what you can <span class="v">[V]</span></li>
+<li>Migrating Monarchs: Wed 9/30, 1:00–3:00 PM. All-ages/family. Free. <span class="v">[V]</span></li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p1dtabs1"><input type="radio" name="dtabs1s1" id="dtabs1s10" checked>
+<input type="radio" name="dtabs1s1" id="dtabs1s11">
+<div class="tabbar">
+<label class="tlab" for="dtabs1s10">Morning</label>
+<label class="tlab" for="dtabs1s11">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1s1"><ul class="evt">
+<li><strong>Barnes &amp; Noble, Triangle stores (nearest Cary ~6.7 mi)</strong> — <a href="https://stores.barnesandnoble.com/event/9780062151156-31">Young Adult Book Club</a>, first Thursday of the month → Thu 10/1 (time not stated), YA, free (typical), drop-in <span class="u">[U]</span> (event page exists but states NO store, date, or time; B&amp;N Cary store events list is a JS shell that renders nothing)</li>
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Silent Witness Exhibit</a>, Thu 10/1, Talley Student Union 2nd-floor lobby <span class="v">[V]</span></li>
+<li><strong>Atomic Empire, Durham (~19.4 mi)</strong> — <a href="https://www.findglocal.com/US/Durham/106705860500/Atomic-Empire">Weekly game nights</a>: Thu 10/1 — Riftbound Nexus Night + Game Designers of NC Meetup + D&amp;D Adventurers' League. Ages not stated (generally all-ages; teen welcome not explicitly confirmed), cost/entry fee not stated, drop-in <span class="u">[U]</span> (per store's weekly Facebook schedule via findglocal; this week's exact lineup and times not re-confirmed)</li>
+<li><strong>The Pour House, Raleigh (14 mi)</strong> — <a href="https://www.pourhouseraleigh.com/calendar">Remi Wolf Listening Party (Record Shop)</a>, Thu 10/1 (time not stated), all ages, cost not stated (likely free) <span class="u">[U]</span> (per pourhouseraleigh.com calendar, fresh crawl)</li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Play the Cyber Bowl</a>, Thu 10/1, 10:00 AM–2:00 PM, Talley Student Union Lobby <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Silent Witness Exhibit</a>, Thu 10/1, Talley Student Union 2nd-floor lobby <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Play the Cyber Bowl</a>, Thu 10/1, 10:00 AM–2:00 PM, Talley Student Union Lobby <span class="v">[V]</span></li>
+<li><strong>The Pour House, Raleigh (14 mi)</strong> — <a href="https://www.pourhouseraleigh.com/calendar">Remi Wolf Listening Party (Record Shop)</a>, Thu 10/1 (time not stated), all ages, cost not stated (likely free) <span class="u">[U]</span> (per pourhouseraleigh.com calendar, fresh crawl)</li>
+<li><strong>Atomic Empire, Durham (~19.4 mi)</strong> — <a href="https://www.findglocal.com/US/Durham/106705860500/Atomic-Empire">Weekly game nights</a>: Thu 10/1 — Riftbound Nexus Night + Game Designers of NC Meetup + D&amp;D Adventurers' League. Ages not stated (generally all-ages; teen welcome not explicitly confirmed), cost/entry fee not stated, drop-in <span class="u">[U]</span> (per store's weekly Facebook schedule via findglocal; this week's exact lineup and times not re-confirmed)</li>
+<li><strong>Barnes &amp; Noble, Triangle stores (nearest Cary ~6.7 mi)</strong> — <a href="https://stores.barnesandnoble.com/event/9780062151156-31">Young Adult Book Club</a>, first Thursday of the month → Thu 10/1 (time not stated), YA, free (typical), drop-in <span class="u">[U]</span> (event page exists but states NO store, date, or time; B&amp;N Cary store events list is a JS shell that renders nothing)</li>
+</ul></section>
+<section class="pane p1dtabs1s1"><ul class="evt">
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">WKNC Local Lunch Live</a>, Thu 10/1, 12:00–1:00 PM, The Corner <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Get Your PUMP-Kin</a>, Thu 10/1, 12:00–2:00 PM, Stafford Commons <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">LGBTQ+ PrideFest Exhibit</a>, Thu 10/1, 12:00–5:00 PM, D.H. Hill Jr. Library <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Free Yoga</a>, Thu 10/1, 12:15–1:05 PM, Partners I Suite 2580. <span class="v">[V]</span></li>
+<li><strong>NC Museum of Art, Raleigh (9.2 mi)</strong> — calendar (visit.ncartmuseum.org/events) still JS-only and unrenderable; no Teen Night in window confirmed. Per search crawl <span class="u">[U]</span>: Thu 10/1 — Public Tour 1:00–2:00 PM, Adaptive Tai Chi in the Park 5:00–6:00 PM, "Broadway to Bacharach and Beyond: How Jewish Songwriters Shaped the Pop Sound" 7:00 PM</li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>Murphey School, Raleigh (14 mi)</strong> — <a href="https://raleighmag.com/venue/burning-coal-theatre/">ONCE — Burning Coal Theatre</a>, Thu 10/1, 2:00–4:30 PM, 224 Polk St, ages not stated (musical; family-appropriate), <strong>$5–$30</strong> <span class="u">[U]</span> (Travesties runs Oct 8–25 — out of window)</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">CatVideo Fest 2026</a>, Wed 9/30, 2:00 PM and Thu 10/1, 7:00 PM, all ages</li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Crafting Recess: Coloring Club</a>, Thu 10/1, 3:00–4:30 PM, James B. Hunt Jr. Library <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Jazz on the Lawn</a>, Thu 10/1, 4:30–6:45 PM, Talley Student Union/Stafford Commons <span class="v">[V]</span></li>
+<li><strong>YMCA of the Triangle — Kraft Family YMCA, Apex (8 mi)</strong> — <a href="https://ymcatriangle.org/news/teen-wellness-club-kraft-family-y">Teen Wellness Club</a>, Thu 10/1, 5:00 PM (weekly Thursdays), ages 11–18, free with Y membership <span class="u">[U]</span> (morning pull; not re-confirmed this refresh — verify before going)</li>
+<li><strong>Epilogue Books Chocolate Brews, Chapel Hill (~18.1 mi)</strong> — <a href="https://www.foodyas.com/US/Chapel-Hill/562292130952869/Epilogue-Books-Chocolate-Brews">Rough: Drafts — monthly poetry workshop with Chapel Hill Poet Laureate Donovan Livingston</a>, Thu 10/1, 6:00 PM (end time not stated), ages not stated, FREE (tickets free on Epilogue's website per store post), ticket/registration via store website <span class="u">[U]</span> (via store social post crawl 9/24; no verbatim events URL obtained)</li>
+<li><strong>Morrisville Parks &amp; Rec, Morrisville (~1.4 mi)</strong> — <a href="https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Program-Guide">Engineer Planes with RoboThink</a>, Thu 10/1 (session Oct 1–Nov 5, Thursdays), 6:00–7:30 PM, Cedar Fork Community Center, ages 6–13 (upper half overlaps the band), fee-based (cost not stated), session registration required <span class="u">[U]</span></li>
+<li><strong>Raleigh Wide Open, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3 days of free live music</a>, Thu 10/1 6:00–10:00 PM (kickoff at The Corner, NC State Centennial Campus), Fri 10/2 3:00–11:00 PM, Sat 10/3 12:00–11:00 PM (downtown Raleigh, jam tent at courthouse), all-ages (Family Fun Zone, free jam classes, open jam sessions, artist interviews, book talks), FREE, drop-in <span class="v">[V]</span></li>
+<li><strong>Moore Square, Raleigh (14 mi)</strong> — <a href="https://happeningnext.com/event/jazz-in-the-square-with-nccu-jazz-collective-eid3a0e44j76u">Jazz in the Square: NCCU Jazz Collective</a>, Thu 10/1, 6:00–8:00 PM, all ages, FREE <span class="u">[U]</span> (via Downtown Raleigh Alliance listing; also on Triangle on the Cheap)</li>
+<li>Jazz in the Square: NCCU Jazz Collective, Moore Square, Raleigh (~14 mi), 6:00–8:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Raleigh Wide Open Kickoff Celebration, The Corner, NC State Centennial Campus (~12.5 mi), 6:00–9:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~12.5 mi)</strong> — Hank &amp; Pattie with Brek (Raleigh Wide Open event), Thu 10/1, 6:00–9:30 PM, The Corner, NC State Centennial Campus, all ages, FREE <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Fuquay-Varina (~22 mi)</strong> — Celebrate Fuquay-Varina Concert 2026, Thu 10/1, 6:00–9:00 PM, Downtown Varina District, all ages, cost not stated on card (likely free concert series) <span class="v">[V]</span></li>
+<li>Chimney Swift Watch with South Wake Conservationists, Transfer Co. Food Hall, Raleigh (~14 mi), 6:30–7:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Raleigh Uke Jam, Church of the Nativity, Raleigh (~14 mi), 6:30–8:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Science Trivia (pub-quiz style, prizes): Thu 10/1, 7:00–8:00 PM, Daily Planet Café. Ages not stated. Free. <span class="v">[V]</span></li>
+<li>Science Trivia, Nature Research Center, Raleigh (~14.4 mi), 7:00–8:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li>Music Bingo, Fortnight Brewing, Cary (~8 mi), 7:00–9:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Tony</a>, Wed 9/30, 7:00 PM and Thu 10/1, 2:00 PM, ages not stated</li>
+<li><strong>Red Hat Amphitheater, Raleigh (14 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Dylan Gossett &amp; Charles Wesley Godwin</a>, Thu 10/1, 7:00 PM</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://www.axs.com/uk/venues/124880/cat-s-cradle-carrboro-tickets/staticDetails">The Format</a>, Thu 10/1, 7:30 PM</li>
+<li><strong>Lenovo Center, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Jonas Brothers</a>, Thu 10/1, 7:30 PM</li>
+<li>Cosmic Cantina Karaoke, Cosmic Cantina, Chapel Hill (~18 mi), 8:00 PM–11:59 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Honestav</a>, Thu 10/1, 8:00 PM</li>
+</ul><ul class="evd">
+<li><strong>Morrisville Parks &amp; Rec, Morrisville (~1.4 mi)</strong> — <a href="https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Program-Guide">Engineer Planes with RoboThink</a>, Thu 10/1 (session Oct 1–Nov 5, Thursdays), 6:00–7:30 PM, Cedar Fork Community Center, ages 6–13 (upper half overlaps the band), fee-based (cost not stated), session registration required <span class="u">[U]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">CatVideo Fest 2026</a>, Wed 9/30, 2:00 PM and Thu 10/1, 7:00 PM, all ages</li>
+<li><strong>YMCA of the Triangle — Kraft Family YMCA, Apex (8 mi)</strong> — <a href="https://ymcatriangle.org/news/teen-wellness-club-kraft-family-y">Teen Wellness Club</a>, Thu 10/1, 5:00 PM (weekly Thursdays), ages 11–18, free with Y membership <span class="u">[U]</span> (morning pull; not re-confirmed this refresh — verify before going)</li>
+<li>Music Bingo, Fortnight Brewing, Cary (~8 mi), 7:00–9:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Tony</a>, Wed 9/30, 7:00 PM and Thu 10/1, 2:00 PM, ages not stated</li>
+<li><strong>NC Museum of Art, Raleigh (9.2 mi)</strong> — calendar (visit.ncartmuseum.org/events) still JS-only and unrenderable; no Teen Night in window confirmed. Per search crawl <span class="u">[U]</span>: Thu 10/1 — Public Tour 1:00–2:00 PM, Adaptive Tai Chi in the Park 5:00–6:00 PM, "Broadway to Bacharach and Beyond: How Jewish Songwriters Shaped the Pop Sound" 7:00 PM</li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">WKNC Local Lunch Live</a>, Thu 10/1, 12:00–1:00 PM, The Corner <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Get Your PUMP-Kin</a>, Thu 10/1, 12:00–2:00 PM, Stafford Commons <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">LGBTQ+ PrideFest Exhibit</a>, Thu 10/1, 12:00–5:00 PM, D.H. Hill Jr. Library <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Free Yoga</a>, Thu 10/1, 12:15–1:05 PM, Partners I Suite 2580. <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Crafting Recess: Coloring Club</a>, Thu 10/1, 3:00–4:30 PM, James B. Hunt Jr. Library <span class="v">[V]</span></li>
+<li><strong>NC State campus, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Jazz on the Lawn</a>, Thu 10/1, 4:30–6:45 PM, Talley Student Union/Stafford Commons <span class="v">[V]</span></li>
+<li>Raleigh Wide Open Kickoff Celebration, The Corner, NC State Centennial Campus (~12.5 mi), 6:00–9:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~12.5 mi)</strong> — Hank &amp; Pattie with Brek (Raleigh Wide Open event), Thu 10/1, 6:00–9:30 PM, The Corner, NC State Centennial Campus, all ages, FREE <span class="v">[V]</span></li>
+<li><strong>Murphey School, Raleigh (14 mi)</strong> — <a href="https://raleighmag.com/venue/burning-coal-theatre/">ONCE — Burning Coal Theatre</a>, Thu 10/1, 2:00–4:30 PM, 224 Polk St, ages not stated (musical; family-appropriate), <strong>$5–$30</strong> <span class="u">[U]</span> (Travesties runs Oct 8–25 — out of window)</li>
+<li><strong>Raleigh Wide Open, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3 days of free live music</a>, Thu 10/1 6:00–10:00 PM (kickoff at The Corner, NC State Centennial Campus), Fri 10/2 3:00–11:00 PM, Sat 10/3 12:00–11:00 PM (downtown Raleigh, jam tent at courthouse), all-ages (Family Fun Zone, free jam classes, open jam sessions, artist interviews, book talks), FREE, drop-in <span class="v">[V]</span></li>
+<li><strong>Moore Square, Raleigh (14 mi)</strong> — <a href="https://happeningnext.com/event/jazz-in-the-square-with-nccu-jazz-collective-eid3a0e44j76u">Jazz in the Square: NCCU Jazz Collective</a>, Thu 10/1, 6:00–8:00 PM, all ages, FREE <span class="u">[U]</span> (via Downtown Raleigh Alliance listing; also on Triangle on the Cheap)</li>
+<li>Jazz in the Square: NCCU Jazz Collective, Moore Square, Raleigh (~14 mi), 6:00–8:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Chimney Swift Watch with South Wake Conservationists, Transfer Co. Food Hall, Raleigh (~14 mi), 6:30–7:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Raleigh Uke Jam, Church of the Nativity, Raleigh (~14 mi), 6:30–8:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Red Hat Amphitheater, Raleigh (14 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Dylan Gossett &amp; Charles Wesley Godwin</a>, Thu 10/1, 7:00 PM</li>
+<li><strong>Lenovo Center, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Jonas Brothers</a>, Thu 10/1, 7:30 PM</li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Honestav</a>, Thu 10/1, 8:00 PM</li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li>Science Trivia, Nature Research Center, Raleigh (~14.4 mi), 7:00–8:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://www.axs.com/uk/venues/124880/cat-s-cradle-carrboro-tickets/staticDetails">The Format</a>, Thu 10/1, 7:30 PM</li>
+<li>Cosmic Cantina Karaoke, Cosmic Cantina, Chapel Hill (~18 mi), 8:00 PM–11:59 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>Epilogue Books Chocolate Brews, Chapel Hill (~18.1 mi)</strong> — <a href="https://www.foodyas.com/US/Chapel-Hill/562292130952869/Epilogue-Books-Chocolate-Brews">Rough: Drafts — monthly poetry workshop with Chapel Hill Poet Laureate Donovan Livingston</a>, Thu 10/1, 6:00 PM (end time not stated), ages not stated, FREE (tickets free on Epilogue's website per store post), ticket/registration via store website <span class="u">[U]</span> (via store social post crawl 9/24; no verbatim events URL obtained)</li>
+<li><strong>RaleighParent, Fuquay-Varina (~22 mi)</strong> — Celebrate Fuquay-Varina Concert 2026, Thu 10/1, 6:00–9:00 PM, Downtown Varina District, all ages, cost not stated on card (likely free concert series) <span class="v">[V]</span></li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li>Science Trivia (pub-quiz style, prizes): Thu 10/1, 7:00–8:00 PM, Daily Planet Café. Ages not stated. Free. <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p2dtabs1"><input type="radio" name="dtabs1s2" id="dtabs1s20" checked>
+<input type="radio" name="dtabs1s2" id="dtabs1s21">
+<div class="tabbar">
+<label class="tlab" for="dtabs1s20">Morning</label>
+<label class="tlab" for="dtabs1s21">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1s2"><ul class="evt">
+<li><strong>Raleigh Film &amp; Art Festival, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3-day festival</a>, Fri 10/2–Sun 10/4, Peace University, ages not stated, cost "various" — verify on raleighfilmandartfestival.org; films, art, performances, community events <span class="u">[U]</span> (thisisraleigh listing level; festival site not opened)</li>
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Atomic Empire, Durham (~19.4 mi)</strong> — <a href="https://www.findglocal.com/US/Durham/106705860500/Atomic-Empire">Weekly game nights</a>: Fri 10/2 — FNM (HOB Draft, Pauper, Commander Mixer). Ages not stated (generally all-ages; teen welcome not explicitly confirmed), cost/entry fee not stated, drop-in <span class="u">[U]</span> (per store's weekly Facebook schedule via findglocal; this week's exact lineup and times not re-confirmed)</li>
+<li>Spider Hunt: Fri 10/2, 10:00 AM–12:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+<li>Live Animal Feeding – Ocean Habitat: Wed 9/30, 10:45–11:00 AM; Fri 10/2, 10:45–11:00 AM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>Duke Arts Create, Durham (16 mi)</strong> — <a href="https://arts.duke.edu/">Dance as a Revolutionary Practice workshop with Ogemde Ude</a>, Fri 10/2, 11:45 AM, ages not stated, FREE <span class="u">[U]</span> (listed alongside Duke Arts Create events; venue/details not re-confirmed)</li>
+</ul><ul class="evd">
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Raleigh Film &amp; Art Festival, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3-day festival</a>, Fri 10/2–Sun 10/4, Peace University, ages not stated, cost "various" — verify on raleighfilmandartfestival.org; films, art, performances, community events <span class="u">[U]</span> (thisisraleigh listing level; festival site not opened)</li>
+<li><strong>Duke Arts Create, Durham (16 mi)</strong> — <a href="https://arts.duke.edu/">Dance as a Revolutionary Practice workshop with Ogemde Ude</a>, Fri 10/2, 11:45 AM, ages not stated, FREE <span class="u">[U]</span> (listed alongside Duke Arts Create events; venue/details not re-confirmed)</li>
+<li><strong>Atomic Empire, Durham (~19.4 mi)</strong> — <a href="https://www.findglocal.com/US/Durham/106705860500/Atomic-Empire">Weekly game nights</a>: Fri 10/2 — FNM (HOB Draft, Pauper, Commander Mixer). Ages not stated (generally all-ages; teen welcome not explicitly confirmed), cost/entry fee not stated, drop-in <span class="u">[U]</span> (per store's weekly Facebook schedule via findglocal; this week's exact lineup and times not re-confirmed)</li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+<li>Spider Hunt: Fri 10/2, 10:00 AM–12:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li>Live Animal Feeding – Ocean Habitat: Wed 9/30, 10:45–11:00 AM; Fri 10/2, 10:45–11:00 AM. Ages not stated. Free. <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs1s2"><ul class="evt">
+<li>Mill History Tour, Historic Yates Mill County Park, Raleigh (~14 mi), 1:00 PM and 2:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">SIX: The Musical Live!</a>, Fri 10/2, 2:00 PM, Sat 10/3, 5:00 PM, Sun 10/4, 3:00 PM, teen-relevant</li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li>Raleigh Wide Open Music Festival, 100 Fayetteville Street, Raleigh (~14 mi), 3:00–11:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>Code Ninjas Morrisville/Cary, Morrisville (1.7 mi)</strong> — <a href="https://beakid.com/nc/morrisville/code-ninjas-morrisville-cary-address">Code Ninjas CREATE weekly coding sessions</a>, 3:30–7:00 PM, 3033 Village Market Place, ages 7–14 (ages 10–14 overlap the band), cost not stated (subscription/membership-based program), enrollment/membership required <span class="u">[U]</span> (hours from a third-party business profile, not re-confirmed live)</li>
+<li>First Friday: Artist Interviews with Raleigh Wide Open, City of Raleigh Museum, Raleigh (~14 mi), 4:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>First Friday, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">downtown gallery/studio night</a>, Fri 10/2, from 5:00 PM, centered on Fayetteville St, Martin St, Warehouse District, all-ages street art night (Halloween + Raleigh Wide Open theme this month), free <span class="v">[V]</span></li>
+<li><strong>Triangle Oktoberfest, Cary (~5.1 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">12th annual</a>, Fri 10/2 5:00–10:00 PM, Sat 10/3 12:00–8:00 PM, Koka Booth Amphitheatre, 8003 Regency Pkwy, family-friendly, <strong>ticketed: from $27</strong> (kids 15 and under free; $5 off for seniors 60+/military/police/fire/EMS with ID; parking free; food &amp; drink extra), tickets required via Booth box office <span class="v">[V]</span></li>
+<li><strong>Gallery 20, 20 Glenwood Ave, Raleigh (~14 mi)</strong> — <a href="https://waltermagazine.com/events/what-to-do-in-raleigh-in-october-2026/">Gallery 20 First Friday artist reception</a>, Fri 10/2, 5:00–8:00 PM, ages not stated, cost not stated (WALTER Magazine, opened live this run) <span class="v">[V]</span></li>
+<li><strong>Ava Gardner Festival, Smithfield (~32 mi)</strong> — <a href="http://thisisraleigh.com/things-to-do-in-raleigh-this-weekend/">A Night in Madrid (red carpet gala)</a>, Fri 10/2, 5:00–8:00 PM, <strong>$30</strong>, ages not stated; festival runs Oct 2–4 <span class="u">[U]</span> (film festival honoring Smithfield's Ava Gardner)</li>
+<li>First Friday Market &amp; Movie: Ghostbusters, Moore Square, Raleigh (~14 mi), 5:00–9:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Triangle Oktoberfest at Booth Amphitheatre, Cary (~8 mi), 5:00–10:00 PM, <strong>$0–$37.57</strong> <span class="v">[V]</span></li>
+<li>Bands, Bites and Boats Concert Series: Amanda Peach Duo, Fred G. Bond Metro Park, Cary (~8 mi), 5:00–7:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Spooky Hollow First Friday, Smoky Hollow, Raleigh (~14 mi), 5:00–8:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Fridays on the Front Porch, Carolina Inn, Chapel Hill (~18 mi), 5:00–8:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>For Friday's Sake: live music + food truck, For Garden's Sake, Durham (~16 mi), 5:00–8:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>First Friday in Downtown Fuquay-Varina, Downtown Fuquay-Varina (~22 mi), 5:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>One Tribe Drum Circle, Stone Houses at Dix Park, Raleigh (~14 mi), 5:30–7:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Cary Parks &amp; Rec, Cary (~4.8 mi)</strong> — <a href="https://cardinalpine.com/local/free-outdoor-movies-north-carolina/">Movie Night: Frankenweenie, Downtown Cary Park Great Lawn</a>, Fri 10/2, 6:00–10:00 PM (family activities before the film), family film, free, drop-in <span class="u">[U]</span> (aggregator-level)</li>
+<li><strong>Raleigh Wide Open, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3 days of free live music</a>, Thu 10/1 6:00–10:00 PM (kickoff at The Corner, NC State Centennial Campus), Fri 10/2 3:00–11:00 PM, Sat 10/3 12:00–11:00 PM (downtown Raleigh, jam tent at courthouse), all-ages (Family Fun Zone, free jam classes, open jam sessions, artist interviews, book talks), FREE, drop-in <span class="v">[V]</span></li>
+<li>Teen Science Café: Unwinding Spiral Galaxies: Fri 10/2, 6:00–7:00 PM, Daily Planet Café (121 W Jones St), ages 11–17 (recommended), free, drop-in (registration only for the YouTube livestream) <span class="v">[V]</span></li>
+<li><strong>A lil Something Creative, Westover, Raleigh (~14 mi)</strong> — <a href="https://www.eventbrite.co.nz/d/nc--raleigh/teen/">DIY Potion Bottles — make your own Halloween decor</a>, Fri 10/2, 6:00 PM, ages not stated — listed on Eventbrite's Raleigh teen-events page, cost not stated, registration via Eventbrite <span class="u">[U — seen on the live teen-listing page today; not opened individually]</span></li>
+<li>Movie Night: Frankenweenie, Downtown Cary Park (~6 mi), 6:00–10:00 PM, family film, free <span class="v">[V]</span></li>
+<li>PLAYlist concert series: Natural Wonder (Stevie Wonder tribute), Durham Central Park (~16 mi), 6:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Front Porch Friday at Haven Farm, Haven Farm, Knightdale (~16 mi), 6:00–10:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>First Friday Gallery Walk in Raleigh, Various locations, Raleigh (~14 mi), 6:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Pop Up Music at North Hills, The Commons at North Hills, Raleigh (~14 mi), 6:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>First Friday at Eno Arts Mill (studio tours, live music, kids' activities), Eno Arts Mill, Hillsborough (~22 mi), 6:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>First Friday Cemetery Tours, Oakwood Cemetery, Raleigh (~14 mi), 6:00 PM, ages not stated, <strong>$10</strong>, tickets at event/site <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Blacklight Pottery Painting with Cozy Panda, Fri 10/2, 6:00–7:30 PM, 3031 Barrow Dr, ages not stated, cost not on card — verify <span class="v">[V]</span></li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">WNCU 90.7FM PLAYlist Concert Series: Natural Wonder (Stevie Wonder tribute)</a>, Fri 10/2, 6:00–10:00 PM, Durham Central Park, all ages, cost not stated (likely free — verify)</li>
+<li>Dance with Raleigh International Folk Dancers, Glen Eden Pilot Park, Raleigh (~14 mi), 6:30–10:00 PM, ages not stated, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Lenovo Center, Raleigh (14 mi)</strong> — <a href="https://www.ticketmaster.com/Carolina-Hurricanes-tickets/artist/805908?brand=nhl&amp;wt.mc_id=NHL_LEAGUE_CAR_BUY_SELL_TIX&amp;utm_source=NHL.com&amp;utm_medium=client&amp;utm_campaign=NHL_LEAGUE&amp;utm_content=CAR_BUY_SELL_TIX&amp;page=1">Carolina Hurricanes vs Washington Capitals</a>, Fri 10/2, 7:00 PM (Hispanic Heritage Celebration night), all ages, ticketed — resale from <strong>~$38</strong> to <strong>~$90</strong> <span class="v">[V date/time; U prices]</span></li>
+<li>First Friday Under the Stars — Skywatching Event, Three Bears Acres, Creedmoor (~20 mi), 7:00–10:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Garner (~19 mi)</strong> — Charlie Oakley &amp; Blazin' Grass, Fri 10/2, 7:00–9:00 PM, Lorraine's Coffee House and Music, ages not stated, cost not stated on card <span class="v">[V]</span></li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">The Midnight</a>, Fri 10/2, 7:00 PM</li>
+<li><strong>Wake Forest Listening Room at Magnolia Roots, Wake Forest (~28 mi)</strong> — <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Jason Adamo Presents NC Songwriters In The Round</a>, Fri 10/2, 7:30 PM, all-ages listening room, cost not stated <span class="u">[U]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Pop Up Chorus Broadway: Hamilton</a>, Fri 10/2, 7:30 PM, teen-relevant</li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Carter Faith</a>, Fri 10/2, 7:30 PM</li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Davide De Pierro (illusionist)</a>, Fri 10/2, 7:30 PM, Fletcher Hall, ages not stated, ticketed</li>
+<li><strong>Morrisville Parks &amp; Rec, Morrisville (~1.4 mi)</strong> — <a href="https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Program-Guide">Movies in the Park: The Haunted Mansion</a>, Fri 10/2, movie at 8:00 PM (arrive early — free popcorn/drinks before the show), Morrisville Community Park, family event, free, drop-in <span class="u">[U]</span> (via town social post; not on a live town calendar page)</li>
+<li><strong>Haw River Ballroom, Saxapahaw (~32 mi)</strong> — <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Lucero</a>, Fri 10/2, 8:00 PM, ages/cost not stated <span class="u">[U]</span></li>
+<li><strong>Meymandi Concert Hall (Martin Marietta Center), Raleigh (14 mi)</strong> — <a href="https://www.jambase.com/show/the-machine-martin-marietta-center-for-the-performing-arts-20261002">NC Symphony: The Music of Pink Floyd with The Machine</a>, Fri 10/2, 8:00 PM (from <strong>$83.77</strong>) and Sat 10/3, 8:00 PM (Sat resale from <strong>$110</strong>), all ages, tickets via ncsymphony.org / resale <span class="u">[U]</span></li>
+<li><strong>The Rialto, Raleigh (14 mi)</strong> — <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Brett Dennen (concert)</a>, Fri 10/2, 8:00 PM, ages/cost not stated <span class="u">[U]</span> (October retro-film schedule not verifiable this run)</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Frog (w/ Woods)</a>, Fri 10/2, 8:00 PM</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://mailchi.mp/catscradle.com/sep18-concert-update">Jon Shain Trio CD Release Show (Back Room, seated)</a>, Fri 10/2, 8:00 PM</li>
+</ul><ul class="evd">
+<li><strong>Morrisville Parks &amp; Rec, Morrisville (~1.4 mi)</strong> — <a href="https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Program-Guide">Movies in the Park: The Haunted Mansion</a>, Fri 10/2, movie at 8:00 PM (arrive early — free popcorn/drinks before the show), Morrisville Community Park, family event, free, drop-in <span class="u">[U]</span> (via town social post; not on a live town calendar page)</li>
+<li><strong>Code Ninjas Morrisville/Cary, Morrisville (1.7 mi)</strong> — <a href="https://beakid.com/nc/morrisville/code-ninjas-morrisville-cary-address">Code Ninjas CREATE weekly coding sessions</a>, 3:30–7:00 PM, 3033 Village Market Place, ages 7–14 (ages 10–14 overlap the band), cost not stated (subscription/membership-based program), enrollment/membership required <span class="u">[U]</span> (hours from a third-party business profile, not re-confirmed live)</li>
+<li><strong>Cary Parks &amp; Rec, Cary (~4.8 mi)</strong> — <a href="https://cardinalpine.com/local/free-outdoor-movies-north-carolina/">Movie Night: Frankenweenie, Downtown Cary Park Great Lawn</a>, Fri 10/2, 6:00–10:00 PM (family activities before the film), family film, free, drop-in <span class="u">[U]</span> (aggregator-level)</li>
+<li><strong>Triangle Oktoberfest, Cary (~5.1 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">12th annual</a>, Fri 10/2 5:00–10:00 PM, Sat 10/3 12:00–8:00 PM, Koka Booth Amphitheatre, 8003 Regency Pkwy, family-friendly, <strong>ticketed: from $27</strong> (kids 15 and under free; $5 off for seniors 60+/military/police/fire/EMS with ID; parking free; food &amp; drink extra), tickets required via Booth box office <span class="v">[V]</span></li>
+<li>Movie Night: Frankenweenie, Downtown Cary Park (~6 mi), 6:00–10:00 PM, family film, free <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">SIX: The Musical Live!</a>, Fri 10/2, 2:00 PM, Sat 10/3, 5:00 PM, Sun 10/4, 3:00 PM, teen-relevant</li>
+<li>Triangle Oktoberfest at Booth Amphitheatre, Cary (~8 mi), 5:00–10:00 PM, <strong>$0–$37.57</strong> <span class="v">[V]</span></li>
+<li>Bands, Bites and Boats Concert Series: Amanda Peach Duo, Fred G. Bond Metro Park, Cary (~8 mi), 5:00–7:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Pop Up Chorus Broadway: Hamilton</a>, Fri 10/2, 7:30 PM, teen-relevant</li>
+<li>Mill History Tour, Historic Yates Mill County Park, Raleigh (~14 mi), 1:00 PM and 2:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Raleigh Wide Open Music Festival, 100 Fayetteville Street, Raleigh (~14 mi), 3:00–11:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>First Friday: Artist Interviews with Raleigh Wide Open, City of Raleigh Museum, Raleigh (~14 mi), 4:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>First Friday, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">downtown gallery/studio night</a>, Fri 10/2, from 5:00 PM, centered on Fayetteville St, Martin St, Warehouse District, all-ages street art night (Halloween + Raleigh Wide Open theme this month), free <span class="v">[V]</span></li>
+<li><strong>Gallery 20, 20 Glenwood Ave, Raleigh (~14 mi)</strong> — <a href="https://waltermagazine.com/events/what-to-do-in-raleigh-in-october-2026/">Gallery 20 First Friday artist reception</a>, Fri 10/2, 5:00–8:00 PM, ages not stated, cost not stated (WALTER Magazine, opened live this run) <span class="v">[V]</span></li>
+<li>First Friday Market &amp; Movie: Ghostbusters, Moore Square, Raleigh (~14 mi), 5:00–9:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Spooky Hollow First Friday, Smoky Hollow, Raleigh (~14 mi), 5:00–8:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>One Tribe Drum Circle, Stone Houses at Dix Park, Raleigh (~14 mi), 5:30–7:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Raleigh Wide Open, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3 days of free live music</a>, Thu 10/1 6:00–10:00 PM (kickoff at The Corner, NC State Centennial Campus), Fri 10/2 3:00–11:00 PM, Sat 10/3 12:00–11:00 PM (downtown Raleigh, jam tent at courthouse), all-ages (Family Fun Zone, free jam classes, open jam sessions, artist interviews, book talks), FREE, drop-in <span class="v">[V]</span></li>
+<li><strong>A lil Something Creative, Westover, Raleigh (~14 mi)</strong> — <a href="https://www.eventbrite.co.nz/d/nc--raleigh/teen/">DIY Potion Bottles — make your own Halloween decor</a>, Fri 10/2, 6:00 PM, ages not stated — listed on Eventbrite's Raleigh teen-events page, cost not stated, registration via Eventbrite <span class="u">[U — seen on the live teen-listing page today; not opened individually]</span></li>
+<li>First Friday Gallery Walk in Raleigh, Various locations, Raleigh (~14 mi), 6:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Pop Up Music at North Hills, The Commons at North Hills, Raleigh (~14 mi), 6:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>First Friday Cemetery Tours, Oakwood Cemetery, Raleigh (~14 mi), 6:00 PM, ages not stated, <strong>$10</strong>, tickets at event/site <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Blacklight Pottery Painting with Cozy Panda, Fri 10/2, 6:00–7:30 PM, 3031 Barrow Dr, ages not stated, cost not on card — verify <span class="v">[V]</span></li>
+<li>Dance with Raleigh International Folk Dancers, Glen Eden Pilot Park, Raleigh (~14 mi), 6:30–10:00 PM, ages not stated, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Lenovo Center, Raleigh (14 mi)</strong> — <a href="https://www.ticketmaster.com/Carolina-Hurricanes-tickets/artist/805908?brand=nhl&amp;wt.mc_id=NHL_LEAGUE_CAR_BUY_SELL_TIX&amp;utm_source=NHL.com&amp;utm_medium=client&amp;utm_campaign=NHL_LEAGUE&amp;utm_content=CAR_BUY_SELL_TIX&amp;page=1">Carolina Hurricanes vs Washington Capitals</a>, Fri 10/2, 7:00 PM (Hispanic Heritage Celebration night), all ages, ticketed — resale from <strong>~$38</strong> to <strong>~$90</strong> <span class="v">[V date/time; U prices]</span></li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">The Midnight</a>, Fri 10/2, 7:00 PM</li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Carter Faith</a>, Fri 10/2, 7:30 PM</li>
+<li><strong>Meymandi Concert Hall (Martin Marietta Center), Raleigh (14 mi)</strong> — <a href="https://www.jambase.com/show/the-machine-martin-marietta-center-for-the-performing-arts-20261002">NC Symphony: The Music of Pink Floyd with The Machine</a>, Fri 10/2, 8:00 PM (from <strong>$83.77</strong>) and Sat 10/3, 8:00 PM (Sat resale from <strong>$110</strong>), all ages, tickets via ncsymphony.org / resale <span class="u">[U]</span></li>
+<li><strong>The Rialto, Raleigh (14 mi)</strong> — <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Brett Dennen (concert)</a>, Fri 10/2, 8:00 PM, ages/cost not stated <span class="u">[U]</span> (October retro-film schedule not verifiable this run)</li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li>For Friday's Sake: live music + food truck, For Garden's Sake, Durham (~16 mi), 5:00–8:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>PLAYlist concert series: Natural Wonder (Stevie Wonder tribute), Durham Central Park (~16 mi), 6:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Front Porch Friday at Haven Farm, Haven Farm, Knightdale (~16 mi), 6:00–10:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">WNCU 90.7FM PLAYlist Concert Series: Natural Wonder (Stevie Wonder tribute)</a>, Fri 10/2, 6:00–10:00 PM, Durham Central Park, all ages, cost not stated (likely free — verify)</li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Davide De Pierro (illusionist)</a>, Fri 10/2, 7:30 PM, Fletcher Hall, ages not stated, ticketed</li>
+<li>Fridays on the Front Porch, Carolina Inn, Chapel Hill (~18 mi), 5:00–8:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Frog (w/ Woods)</a>, Fri 10/2, 8:00 PM</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://mailchi.mp/catscradle.com/sep18-concert-update">Jon Shain Trio CD Release Show (Back Room, seated)</a>, Fri 10/2, 8:00 PM</li>
+<li><strong>RaleighParent, Garner (~19 mi)</strong> — Charlie Oakley &amp; Blazin' Grass, Fri 10/2, 7:00–9:00 PM, Lorraine's Coffee House and Music, ages not stated, cost not stated on card <span class="v">[V]</span></li>
+<li>First Friday Under the Stars — Skywatching Event, Three Bears Acres, Creedmoor (~20 mi), 7:00–10:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>First Friday in Downtown Fuquay-Varina, Downtown Fuquay-Varina (~22 mi), 5:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>First Friday at Eno Arts Mill (studio tours, live music, kids' activities), Eno Arts Mill, Hillsborough (~22 mi), 6:00–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Wake Forest Listening Room at Magnolia Roots, Wake Forest (~28 mi)</strong> — <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Jason Adamo Presents NC Songwriters In The Round</a>, Fri 10/2, 7:30 PM, all-ages listening room, cost not stated <span class="u">[U]</span></li>
+<li><strong>Ava Gardner Festival, Smithfield (~32 mi)</strong> — <a href="http://thisisraleigh.com/things-to-do-in-raleigh-this-weekend/">A Night in Madrid (red carpet gala)</a>, Fri 10/2, 5:00–8:00 PM, <strong>$30</strong>, ages not stated; festival runs Oct 2–4 <span class="u">[U]</span> (film festival honoring Smithfield's Ava Gardner)</li>
+<li><strong>Haw River Ballroom, Saxapahaw (~32 mi)</strong> — <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Lucero</a>, Fri 10/2, 8:00 PM, ages/cost not stated <span class="u">[U]</span></li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li>Teen Science Café: Unwinding Spiral Galaxies: Fri 10/2, 6:00–7:00 PM, Daily Planet Café (121 W Jones St), ages 11–17 (recommended), free, drop-in (registration only for the YouTube livestream) <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p3dtabs1"><input type="radio" name="dtabs1s3" id="dtabs1s30" checked>
+<input type="radio" name="dtabs1s3" id="dtabs1s31">
+<div class="tabbar">
+<label class="tlab" for="dtabs1s30">Morning</label>
+<label class="tlab" for="dtabs1s31">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1s3"><ul class="evt">
+<li><strong>Raleigh Film &amp; Art Festival, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3-day festival</a>, Fri 10/2–Sun 10/4, Peace University, ages not stated, cost "various" — verify on raleighfilmandartfestival.org; films, art, performances, community events <span class="u">[U]</span> (thisisraleigh listing level; festival site not opened)</li>
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Holly Springs PR, Holly Springs (~15.5 mi)</strong> — <a href="http://www.hollyspringsnc.gov/m/newsflash/Home/Detail/1763">OktoberFest at the Holly Springs Farmers Market</a>, Sat 10/3, 8:00 AM–12:00 PM, free, seasonal market celebration, family, drop-in <span class="u">[U]</span> (town newsflash page)</li>
+<li>Cars and Coffee Morrisville, Imperial Center, Durham (~9 mi), 8:00–11:00 AM, all ages, free <span class="v">[V]</span></li>
+<li>Durham Craft Market, Durham Central Park (~16 mi), 8:00 AM–12:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>Apex PR area, Apex (~8.0 mi)</strong> — <a href="https://allevents.in/apex-us/this-weekend">Fall Festival at DJ's</a>, Sat 10/3, 9:00 AM (end time not stated), 1223 Salem Church Rd, cost not stated, pumpkins &amp; mums, local vendors, food truck, ice cream, bounce house for kids, family <span class="u">[U]</span> (allevents aggregator)</li>
+<li><strong>Iron Chef Competition, Midtown Farmers Market, Raleigh (~13.2 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">culinary showdown</a>, Sat 10/3, 9:00–11:30 AM, North Hills Commons, ages not stated, free to attend, drop-in <span class="v">[V]</span></li>
+<li><strong>Polk Place, UNC-Chapel Hill (18.0 mi)</strong> — <a href="https://tarheeltribune.com/2026/09/27/notre-dames-game-at-unc-gets-early-start/">Chapel Thrill Game Day: Chase Rice free concert</a>, Sat 10/3, ~9:00 AM–12:00 PM (areas open ~8:00 AM; UNC vs Notre Dame kickoff 12:00 PM ET), all ages, FREE (walk-in; food trucks on site) <span class="v">[V]</span></li>
+<li>Dance Gumbo: free outdoor dance fitness, NCMA Museum Park, Raleigh (~9 mi), 9:00 AM, all ages, free <span class="v">[V]</span></li>
+<li>Sculpture in the Garden, NC Botanical Garden, Chapel Hill (~18 mi), 9:00 AM–5:00 PM, all ages, free ($5 suggested donation) <span class="v">[V]</span></li>
+<li>Wendell Harvest Festival, J. Ashley Wall Towne Square, Wendell (~34 mi), 9:00 AM–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>NC Museum of Art, Raleigh (9.2 mi)</strong> — calendar (visit.ncartmuseum.org/events) still JS-only and unrenderable; no Teen Night in window confirmed. Per search crawl <span class="u">[U]</span>: Sat 10/3 — NCMA Dance Gumbo 9:00–9:45 AM, Park Tour: Science and Sustainability 9:00–10:30 AM, Papermaking workshop 9:00 AM–12:00 PM</li>
+<li>Holly Springs Diwali, Bass Lake Park, Holly Springs (~15.5 mi), 9:30 AM–9:30 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>Code Ninjas Morrisville/Cary, Morrisville (1.7 mi)</strong> — <a href="https://beakid.com/nc/morrisville/code-ninjas-morrisville-cary-address">Code Ninjas CREATE weekly coding sessions</a>, 9:30 AM–2:00 PM, 3033 Village Market Place, ages 7–14 (ages 10–14 overlap the band), cost not stated (subscription/membership-based program), enrollment/membership required <span class="u">[U]</span> (hours from a third-party business profile, not re-confirmed live)</li>
+<li><strong>Celebrate Fuquay-Varina, Fuquay-Varina (~21.5 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">community festival</a>, Sat 10/3, 10:00 AM–4:00 PM, downtown Fuquay-Varina, family event, free, drop-in; live entertainment, craft beer, Downtown Chili Cook-off, food trucks, arts &amp; crafts, free kid's zone <span class="v">[V]</span></li>
+<li><strong>Museum of Life and Science, Durham (19.2 mi)</strong> — <a href="https://www.lifeandscience.org/explore/events/">Pumpkin Patch Express</a>, Sat 10/3 &amp; Sun 10/4 (weekends in October from Sep 26), train ride to the museum pumpkin patch, all-ages/family, <strong>ticketed — General $24, Children 3–15 $19</strong> (admission prices increased since last run), Seniors 65+ $22, military $22, ages 2 &amp; under free, members free; tickets required. Museum open Tue–Sun 10 AM–5 PM (members 9 AM), closed Mondays. <span class="v">[V]</span></li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+<li>Youth Aviation Academy Program, John Chavis Memorial Park, Raleigh (~14 mi), 10:00 AM–12:30 PM, youth-focused, <strong>$10</strong>, registration required <span class="v">[V]</span></li>
+<li>Celebrate Fuquay-Varina Festival, Downtown Fuquay-Varina (~22 mi), 10:00 AM–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Saturday Slowdown Market and Open Farm Day, RambleRill Farm, Hillsborough (~22 mi), 10:00 AM–2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Open Farm, Sunrise Community Farm Center, Chapel Hill (~18 mi), 10:00 AM–5:00 PM, all ages, <strong>$8</strong>, pay at farm <span class="v">[V]</span></li>
+<li>Wake Forest Free Market, Olive Branch Baptist Church, Wake Forest (~27 mi), 10:00 AM–12:00 PM, ages not stated, free, no registration shown <span class="v">[V]</span></li>
+<li>Blessing of the Animals / Animal Festival, Christus Victor Lutheran Church, Durham (~16 mi), 10:30 AM–12:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>iLead Kids Camp at Wanda's Little Hands, Raleigh (18.8 mi)</strong> — <a href="https://www.eventbrite.com/e/fall-steam-experience-tickets-1999868127404">Fall S.T.E.A.M. Experience</a>, 10:30 AM–1:00 PM, 3400 Poole Rd, Raleigh NC 27610, ages 5–12 (grades K–6; only ages 10–12 overlap the 10–19 band), FREE, Eventbrite registration required (stations: Ozobots &amp; Coding, Snap Circuits, LEGO Engineering, 3D Printing, Maker Space Challenges; children must attend with a parent/responsible adult) <span class="v">[V]</span></li>
+<li><strong>Falling for Local, Raleigh (~12.4 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">Shop Local Raleigh fall festival</a>, Sat 10/3, 11:00 AM–6:00 PM, The Big Field, Dorothea Dix Park, 2105 Umstead Dr, family event, free to attend (beer extra), drop-in; 150+ local businesses, hayrides, pumpkin patch, food trucks, live music <span class="v">[V]</span></li>
+<li>Falling for Local at Dix Park, Dorothea Dix Park, Raleigh (~14 mi), 11:00 AM–6:00 PM, all ages, free (live music, free hayrides, free pumpkins) <span class="v">[V]</span></li>
+<li>Taste of Asia, Moore Square, Raleigh (~14 mi), 11:00 AM–6:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>The Witch's Haunted Barn, Firefly Farm, Hillsborough (~22 mi), 11:00 AM–7:00 PM, <strong>$13</strong> <span class="v">[V]</span></li>
+<li>The Market at NCMA, NC Museum of Art, Raleigh (~9 mi), 11:00 AM–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Historic Raleigh Trolley Tours, Mordecai Historic Park, Raleigh (~14 mi), 11:00 AM–3:00 PM, <strong>$6–$10</strong> <span class="v">[V]</span></li>
+<li>Free Guided Tour of N.C. State Capitol, Raleigh (~14 mi), 11:00 AM–4:00 PM (tours 11 AM, 1 PM, 3 PM), all ages, free <span class="v">[V]</span></li>
+<li>Duke Homestead Vintage Base Ball Game, Durham Athletic Park, Durham (~16 mi), 11:00 AM, all ages, <strong>$10</strong>, tickets at event <span class="v">[V]</span></li>
+<li>Drive Electric! (EV showcase), Orange County Board of Elections, Hillsborough (~22 mi), 11:00 AM–2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Garner (~19 mi)</strong> — Firefighters Festival, Sat 10/3, 11:00 AM–5:00 PM, Fire Station #1, all ages/family, cost not stated on card (likely free) <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Fuquay-Varina (~22 mi)</strong> — WAG-O-WEEN 2026 (dog Halloween event), Sat 10/3, 11:00 AM–3:00 PM, Aviator Brewery &amp; Campus, ages/cost not on card <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Buck and the Preacher</a>, Sat 10/3, 11:00 AM</li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Family Saturday: Heartland Marimba</a>, Sat 10/3, 11:00 AM, Cinema One, family/all ages, <strong>$5.00</strong></li>
+</ul><ul class="evd">
+<li><strong>Code Ninjas Morrisville/Cary, Morrisville (1.7 mi)</strong> — <a href="https://beakid.com/nc/morrisville/code-ninjas-morrisville-cary-address">Code Ninjas CREATE weekly coding sessions</a>, 9:30 AM–2:00 PM, 3033 Village Market Place, ages 7–14 (ages 10–14 overlap the band), cost not stated (subscription/membership-based program), enrollment/membership required <span class="u">[U]</span> (hours from a third-party business profile, not re-confirmed live)</li>
+<li><strong>Apex PR area, Apex (~8.0 mi)</strong> — <a href="https://allevents.in/apex-us/this-weekend">Fall Festival at DJ's</a>, Sat 10/3, 9:00 AM (end time not stated), 1223 Salem Church Rd, cost not stated, pumpkins &amp; mums, local vendors, food truck, ice cream, bounce house for kids, family <span class="u">[U]</span> (allevents aggregator)</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Buck and the Preacher</a>, Sat 10/3, 11:00 AM</li>
+<li>Cars and Coffee Morrisville, Imperial Center, Durham (~9 mi), 8:00–11:00 AM, all ages, free <span class="v">[V]</span></li>
+<li>Dance Gumbo: free outdoor dance fitness, NCMA Museum Park, Raleigh (~9 mi), 9:00 AM, all ages, free <span class="v">[V]</span></li>
+<li>The Market at NCMA, NC Museum of Art, Raleigh (~9 mi), 11:00 AM–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>NC Museum of Art, Raleigh (9.2 mi)</strong> — calendar (visit.ncartmuseum.org/events) still JS-only and unrenderable; no Teen Night in window confirmed. Per search crawl <span class="u">[U]</span>: Sat 10/3 — NCMA Dance Gumbo 9:00–9:45 AM, Park Tour: Science and Sustainability 9:00–10:30 AM, Papermaking workshop 9:00 AM–12:00 PM</li>
+<li><strong>Falling for Local, Raleigh (~12.4 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">Shop Local Raleigh fall festival</a>, Sat 10/3, 11:00 AM–6:00 PM, The Big Field, Dorothea Dix Park, 2105 Umstead Dr, family event, free to attend (beer extra), drop-in; 150+ local businesses, hayrides, pumpkin patch, food trucks, live music <span class="v">[V]</span></li>
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Iron Chef Competition, Midtown Farmers Market, Raleigh (~13.2 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">culinary showdown</a>, Sat 10/3, 9:00–11:30 AM, North Hills Commons, ages not stated, free to attend, drop-in <span class="v">[V]</span></li>
+<li><strong>Raleigh Film &amp; Art Festival, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3-day festival</a>, Fri 10/2–Sun 10/4, Peace University, ages not stated, cost "various" — verify on raleighfilmandartfestival.org; films, art, performances, community events <span class="u">[U]</span> (thisisraleigh listing level; festival site not opened)</li>
+<li>Youth Aviation Academy Program, John Chavis Memorial Park, Raleigh (~14 mi), 10:00 AM–12:30 PM, youth-focused, <strong>$10</strong>, registration required <span class="v">[V]</span></li>
+<li>Falling for Local at Dix Park, Dorothea Dix Park, Raleigh (~14 mi), 11:00 AM–6:00 PM, all ages, free (live music, free hayrides, free pumpkins) <span class="v">[V]</span></li>
+<li>Taste of Asia, Moore Square, Raleigh (~14 mi), 11:00 AM–6:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Historic Raleigh Trolley Tours, Mordecai Historic Park, Raleigh (~14 mi), 11:00 AM–3:00 PM, <strong>$6–$10</strong> <span class="v">[V]</span></li>
+<li>Free Guided Tour of N.C. State Capitol, Raleigh (~14 mi), 11:00 AM–4:00 PM (tours 11 AM, 1 PM, 3 PM), all ages, free <span class="v">[V]</span></li>
+<li><strong>Holly Springs PR, Holly Springs (~15.5 mi)</strong> — <a href="http://www.hollyspringsnc.gov/m/newsflash/Home/Detail/1763">OktoberFest at the Holly Springs Farmers Market</a>, Sat 10/3, 8:00 AM–12:00 PM, free, seasonal market celebration, family, drop-in <span class="u">[U]</span> (town newsflash page)</li>
+<li>Holly Springs Diwali, Bass Lake Park, Holly Springs (~15.5 mi), 9:30 AM–9:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Durham Craft Market, Durham Central Park (~16 mi), 8:00 AM–12:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Blessing of the Animals / Animal Festival, Christus Victor Lutheran Church, Durham (~16 mi), 10:30 AM–12:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Duke Homestead Vintage Base Ball Game, Durham Athletic Park, Durham (~16 mi), 11:00 AM, all ages, <strong>$10</strong>, tickets at event <span class="v">[V]</span></li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Family Saturday: Heartland Marimba</a>, Sat 10/3, 11:00 AM, Cinema One, family/all ages, <strong>$5.00</strong></li>
+<li><strong>Polk Place, UNC-Chapel Hill (18.0 mi)</strong> — <a href="https://tarheeltribune.com/2026/09/27/notre-dames-game-at-unc-gets-early-start/">Chapel Thrill Game Day: Chase Rice free concert</a>, Sat 10/3, ~9:00 AM–12:00 PM (areas open ~8:00 AM; UNC vs Notre Dame kickoff 12:00 PM ET), all ages, FREE (walk-in; food trucks on site) <span class="v">[V]</span></li>
+<li>Sculpture in the Garden, NC Botanical Garden, Chapel Hill (~18 mi), 9:00 AM–5:00 PM, all ages, free ($5 suggested donation) <span class="v">[V]</span></li>
+<li>Open Farm, Sunrise Community Farm Center, Chapel Hill (~18 mi), 10:00 AM–5:00 PM, all ages, <strong>$8</strong>, pay at farm <span class="v">[V]</span></li>
+<li><strong>iLead Kids Camp at Wanda's Little Hands, Raleigh (18.8 mi)</strong> — <a href="https://www.eventbrite.com/e/fall-steam-experience-tickets-1999868127404">Fall S.T.E.A.M. Experience</a>, 10:30 AM–1:00 PM, 3400 Poole Rd, Raleigh NC 27610, ages 5–12 (grades K–6; only ages 10–12 overlap the 10–19 band), FREE, Eventbrite registration required (stations: Ozobots &amp; Coding, Snap Circuits, LEGO Engineering, 3D Printing, Maker Space Challenges; children must attend with a parent/responsible adult) <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Garner (~19 mi)</strong> — Firefighters Festival, Sat 10/3, 11:00 AM–5:00 PM, Fire Station #1, all ages/family, cost not stated on card (likely free) <span class="v">[V]</span></li>
+<li><strong>Museum of Life and Science, Durham (19.2 mi)</strong> — <a href="https://www.lifeandscience.org/explore/events/">Pumpkin Patch Express</a>, Sat 10/3 &amp; Sun 10/4 (weekends in October from Sep 26), train ride to the museum pumpkin patch, all-ages/family, <strong>ticketed — General $24, Children 3–15 $19</strong> (admission prices increased since last run), Seniors 65+ $22, military $22, ages 2 &amp; under free, members free; tickets required. Museum open Tue–Sun 10 AM–5 PM (members 9 AM), closed Mondays. <span class="v">[V]</span></li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+<li><strong>Celebrate Fuquay-Varina, Fuquay-Varina (~21.5 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">community festival</a>, Sat 10/3, 10:00 AM–4:00 PM, downtown Fuquay-Varina, family event, free, drop-in; live entertainment, craft beer, Downtown Chili Cook-off, food trucks, arts &amp; crafts, free kid's zone <span class="v">[V]</span></li>
+<li>Celebrate Fuquay-Varina Festival, Downtown Fuquay-Varina (~22 mi), 10:00 AM–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Saturday Slowdown Market and Open Farm Day, RambleRill Farm, Hillsborough (~22 mi), 10:00 AM–2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>The Witch's Haunted Barn, Firefly Farm, Hillsborough (~22 mi), 11:00 AM–7:00 PM, <strong>$13</strong> <span class="v">[V]</span></li>
+<li>Drive Electric! (EV showcase), Orange County Board of Elections, Hillsborough (~22 mi), 11:00 AM–2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Fuquay-Varina (~22 mi)</strong> — WAG-O-WEEN 2026 (dog Halloween event), Sat 10/3, 11:00 AM–3:00 PM, Aviator Brewery &amp; Campus, ages/cost not on card <span class="v">[V]</span></li>
+<li>Wake Forest Free Market, Olive Branch Baptist Church, Wake Forest (~27 mi), 10:00 AM–12:00 PM, ages not stated, free, no registration shown <span class="v">[V]</span></li>
+<li>Wendell Harvest Festival, J. Ashley Wall Towne Square, Wendell (~34 mi), 9:00 AM–9:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs1s3"><ul class="evt">
+<li><strong>Triangle Parade of Homes, Triangle-wide</strong> — <a href="https://waltermagazine.com/events/what-to-do-in-raleigh-in-october-2026/">parade of homes</a>, Sat 10/3–Sun 10/4 (12:00–5:00 PM both days), all ages, FREE (parade runs Oct 3–4, 9–11, 16–18) <span class="v">[V]</span></li>
+<li><strong>Kenan Stadium, Chapel Hill (18.0 mi)</strong> — <a href="https://tarheeltribune.com/2026/09/27/notre-dames-game-at-unc-gets-early-start/">UNC vs Notre Dame (college football)</a>, Sat 10/3, kickoff <strong>12:00 PM ET</strong>, all ages, cost not captured — verify <span class="v">[V]</span></li>
+<li>Duke Regional Cares Community Day, Durham County Memorial Stadium (~16 mi), 12:00–4:00 PM, all ages, free (live music, kids' activities, games, giveaways, food trucks) <span class="v">[V]</span></li>
+<li>Wake Forest Diwali Festival, E. Carroll Joyner Park, Wake Forest (~18 mi), 12:00–3:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Triangle Oktoberfest at Booth Amphitheatre, Cary (~8 mi), 12:00–8:00 PM, <strong>$0–$37.57</strong> <span class="v">[V]</span></li>
+<li>Free Paletas for 10th Anniversary, Morelia Gourmet Paletas, Raleigh (~14 mi), 12:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Oktoberfest at The Plant in Pittsboro, The Plant, Pittsboro (~27 mi), 12:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Pride Community Protest and Parade, Duke University East Campus Main Quad, Durham (~16 mi), 12:00–2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Gallery 20 and Raleigh City Farm Program Launch, Sat 10/3, 12:00 PM, Raleigh City Farm, ages not stated, cost not stated on card (likely free) <span class="v">[V]</span></li>
+<li><strong>Oktoberfest at Lafayette Village, Raleigh (~13.2 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">small-scale Oktoberfest</a>, Sat 10/3, 1:00–4:00 PM, 8450 Honeycutt Rd, family, free to attend (dog racing registration extra), German food, fall beers, live music, dachshund racing <span class="v">[V]</span></li>
+<li>Mill Open House, Historic Yates Mill County Park (~14 mi), 1:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Free pumpkin painting (with purchase of pumpkin), For Garden's Sake, Durham (~16 mi), 1:00–4:00 PM <span class="v">[V]</span></li>
+<li>Oktoberfest at Lafayette Village (incl. annual wiener dog races), Lafayette Village, Raleigh (~14 mi), 1:00–4:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li>Live Animal Feeding: Lobster: Sat 10/3 1:30–1:45 PM, Tue 10/6 1:30–1:45 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li>Carrboro Really Really Free Market, Carrboro Town Commons (~18 mi), 2:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Hymns for Salted Bones: Hayti Walking Tour, 1201 Fayetteville St, Durham (~16 mi), 2:00–3:30 PM (space limited, registration required), all ages, free <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">SIX: The Musical Live!</a>, Fri 10/2, 2:00 PM, Sat 10/3, 5:00 PM, Sun 10/4, 3:00 PM, teen-relevant</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">The Magic Faraway Tree</a>, Sat 10/3, 2:00 PM and Sun 10/4, 12:00 PM, family</li>
+<li><strong>Triangle Oktoberfest, Cary (~5.1 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">12th annual</a>, Fri 10/2 5:00–10:00 PM, Sat 10/3 12:00–8:00 PM, Koka Booth Amphitheatre, 8003 Regency Pkwy, family-friendly, <strong>ticketed: from $27</strong> (kids 15 and under free; $5 off for seniors 60+/military/police/fire/EMS with ID; parking free; food &amp; drink extra), tickets required via Booth box office <span class="v">[V]</span></li>
+<li><strong>DPAC, Durham (16.2 mi)</strong> — <a href="https://seatgeek.com/fortune-feimster-tickets?aid=10443">Fortune Feimster: Takin' Care of Biscuits Comedy Tour (2 shows)</a>, Sat 10/3, <strong>5:00 PM and 8:00 PM</strong>, ages not stated (stand-up; mature material typical — parental discretion advised), resale <strong>$44–$59</strong> <span class="v">[V dates/times; U prices]</span></li>
+<li><strong>231 Capcom Ave, Wake Forest (~16 mi)</strong> — <a href="https://www.eventbrite.com/e/sneaker-ball-registration-1996402494603">Sneaker Ball</a>, Sat 10/3, 5:00–10:30 PM, ages 13 &amp; up (now stated on the live page), ticket price not shown — <strong>online ticket sales have ENDED</strong> (per the live page this run); tickets were required (Connect Church International 5th-anniversary event; church-sponsored semi-formal/dinner event) <span class="v">[V — opened live this run; corrected since the morning pull]</span></li>
+<li>Beer Garden Concert Series, The Glass Jug Beer Lab, RTP (~8 mi), 5:00–8:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>Raleigh Wide Open, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3 days of free live music</a>, Thu 10/1 6:00–10:00 PM (kickoff at The Corner, NC State Centennial Campus), Fri 10/2 3:00–11:00 PM, Sat 10/3 12:00–11:00 PM (downtown Raleigh, jam tent at courthouse), all-ages (Family Fun Zone, free jam classes, open jam sessions, artist interviews, book talks), FREE, drop-in <span class="v">[V]</span></li>
+<li>Music on Mangum: The Ellis Band, Durham Beer Garden (~16 mi), 6:00–9:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>Carter-Finley Stadium, Raleigh (12.5 mi)</strong> — <a href="https://www.TicketSmarter.com/e/louisville-cardinals-at-north-carolina-state-wolfpack-football-tickets-raleigh-10-3-2026-carter-finley-stadium/3188647">NC State vs Louisville (college football)</a>, Sat 10/3 — KICKOFF CONFLICTS: RaleighParent says 7:00 PM, eTickets says 3:30 PM, TicketSmarter TBA — verify at gopack.com. All ages. Resale from <strong>~$69.59</strong> <span class="v">[V]</span></li>
+<li><strong>WakeMed Soccer Park, Cary (8 mi)</strong> — <a href="https://www.northcarolinafc.com/newstag/home/page/16/">North Carolina FC vs Charlotte Independence</a>, Sat 10/3, 7:00 PM ET, all ages, cost not stated — tickets via northcarolinafc.com <span class="u">[U]</span> (rescheduled home match moved to this date)</li>
+<li><strong>Raleigh Memorial Auditorium, Raleigh (14 mi)</strong> — <a href="https://www.visitraleigh.com/plan-a-trip/visitraleigh-insider-blog/post/fall-arts-ballet-symphony-opera-raleigh/">Indigo Girls w/ Linda Perry (Four Non Blondes)</a>, Sat 10/3, 7:00 PM, ages/cost not stated <span class="u">[U]</span></li>
+<li>Deadford Manor — animatronic singing skeleton show, Raleigh front yard (~14 mi), 7:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Alicia Villarreal</a>, Sat 10/3, 7:00 PM</li>
+<li><strong>Durham Parks &amp; Rec — Durham Central Park, Durham (~16.6 mi)</strong> — <a href="https://www.eventbrite.com/d/nc--chapel-hill/fall-festivals/">Fall Film Series: Movies in the Park</a>, Sat 10/3, 7:30 PM, family/all-ages, cost not stated, movie title not stated, drop-in <span class="u">[U]</span> (Eventbrite card-level)</li>
+<li>Fall Film Series: Beetlejuice (PG), Durham Central Park (~16 mi), 7:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Sacred Grounds Coffeehouse Concert, Sacred Grounds Coffeehouse, Durham (~16 mi), 7:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Meymandi Concert Hall (Martin Marietta Center), Raleigh (14 mi)</strong> — <a href="https://www.jambase.com/show/the-machine-martin-marietta-center-for-the-performing-arts-20261002">NC Symphony: The Music of Pink Floyd with The Machine</a>, Fri 10/2, 8:00 PM (from <strong>$83.77</strong>) and Sat 10/3, 8:00 PM (Sat resale from <strong>$110</strong>), all ages, tickets via ncsymphony.org / resale <span class="u">[U]</span></li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Kevin Atwater &amp; Jessie Mazin</a>, Sat 10/3, 8:00 PM</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Manhattan Shorts 2026</a>, Sat 10/3, 8:00 PM</li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">High June &amp; Cadalay</a>, Sat 10/3, 8:00 PM</li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Mike Campbell &amp; The Dirty Knobs</a>, Sat 10/3, 8:00 PM, Fletcher Hall, ages not stated, ticketed</li>
+<li><strong>Motorco Music Hall, Durham (16 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://www.jambase.com/show/bear-ghost-motorco-music-hall-20261003">Bear Ghost w/ Sarah and the Safe Word + Spaceman Bob</a>, Sat 10/3, 8:00 PM</li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Ultimate Homecoming Experience Countdown</a>, Sat 10/3, 10:00 PM–12:00 AM, ages/cost not stated (late-night, college crowd — flag)</li>
+</ul><ul class="evd">
+<li><strong>Triangle Oktoberfest, Cary (~5.1 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">12th annual</a>, Fri 10/2 5:00–10:00 PM, Sat 10/3 12:00–8:00 PM, Koka Booth Amphitheatre, 8003 Regency Pkwy, family-friendly, <strong>ticketed: from $27</strong> (kids 15 and under free; $5 off for seniors 60+/military/police/fire/EMS with ID; parking free; food &amp; drink extra), tickets required via Booth box office <span class="v">[V]</span></li>
+<li>Triangle Oktoberfest at Booth Amphitheatre, Cary (~8 mi), 12:00–8:00 PM, <strong>$0–$37.57</strong> <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">SIX: The Musical Live!</a>, Fri 10/2, 2:00 PM, Sat 10/3, 5:00 PM, Sun 10/4, 3:00 PM, teen-relevant</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">The Magic Faraway Tree</a>, Sat 10/3, 2:00 PM and Sun 10/4, 12:00 PM, family</li>
+<li>Beer Garden Concert Series, The Glass Jug Beer Lab, RTP (~8 mi), 5:00–8:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>WakeMed Soccer Park, Cary (8 mi)</strong> — <a href="https://www.northcarolinafc.com/newstag/home/page/16/">North Carolina FC vs Charlotte Independence</a>, Sat 10/3, 7:00 PM ET, all ages, cost not stated — tickets via northcarolinafc.com <span class="u">[U]</span> (rescheduled home match moved to this date)</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">Manhattan Shorts 2026</a>, Sat 10/3, 8:00 PM</li>
+<li><strong>Carter-Finley Stadium, Raleigh (12.5 mi)</strong> — <a href="https://www.TicketSmarter.com/e/louisville-cardinals-at-north-carolina-state-wolfpack-football-tickets-raleigh-10-3-2026-carter-finley-stadium/3188647">NC State vs Louisville (college football)</a>, Sat 10/3 — KICKOFF CONFLICTS: RaleighParent says 7:00 PM, eTickets says 3:30 PM, TicketSmarter TBA — verify at gopack.com. All ages. Resale from <strong>~$69.59</strong> <span class="v">[V]</span></li>
+<li><strong>Oktoberfest at Lafayette Village, Raleigh (~13.2 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">small-scale Oktoberfest</a>, Sat 10/3, 1:00–4:00 PM, 8450 Honeycutt Rd, family, free to attend (dog racing registration extra), German food, fall beers, live music, dachshund racing <span class="v">[V]</span></li>
+<li>Free Paletas for 10th Anniversary, Morelia Gourmet Paletas, Raleigh (~14 mi), 12:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Gallery 20 and Raleigh City Farm Program Launch, Sat 10/3, 12:00 PM, Raleigh City Farm, ages not stated, cost not stated on card (likely free) <span class="v">[V]</span></li>
+<li>Mill Open House, Historic Yates Mill County Park (~14 mi), 1:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Oktoberfest at Lafayette Village (incl. annual wiener dog races), Lafayette Village, Raleigh (~14 mi), 1:00–4:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Raleigh Wide Open, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3 days of free live music</a>, Thu 10/1 6:00–10:00 PM (kickoff at The Corner, NC State Centennial Campus), Fri 10/2 3:00–11:00 PM, Sat 10/3 12:00–11:00 PM (downtown Raleigh, jam tent at courthouse), all-ages (Family Fun Zone, free jam classes, open jam sessions, artist interviews, book talks), FREE, drop-in <span class="v">[V]</span></li>
+<li><strong>Raleigh Memorial Auditorium, Raleigh (14 mi)</strong> — <a href="https://www.visitraleigh.com/plan-a-trip/visitraleigh-insider-blog/post/fall-arts-ballet-symphony-opera-raleigh/">Indigo Girls w/ Linda Perry (Four Non Blondes)</a>, Sat 10/3, 7:00 PM, ages/cost not stated <span class="u">[U]</span></li>
+<li>Deadford Manor — animatronic singing skeleton show, Raleigh front yard (~14 mi), 7:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Alicia Villarreal</a>, Sat 10/3, 7:00 PM</li>
+<li><strong>Meymandi Concert Hall (Martin Marietta Center), Raleigh (14 mi)</strong> — <a href="https://www.jambase.com/show/the-machine-martin-marietta-center-for-the-performing-arts-20261002">NC Symphony: The Music of Pink Floyd with The Machine</a>, Fri 10/2, 8:00 PM (from <strong>$83.77</strong>) and Sat 10/3, 8:00 PM (Sat resale from <strong>$110</strong>), all ages, tickets via ncsymphony.org / resale <span class="u">[U]</span></li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">High June &amp; Cadalay</a>, Sat 10/3, 8:00 PM</li>
+<li>Duke Regional Cares Community Day, Durham County Memorial Stadium (~16 mi), 12:00–4:00 PM, all ages, free (live music, kids' activities, games, giveaways, food trucks) <span class="v">[V]</span></li>
+<li>Pride Community Protest and Parade, Duke University East Campus Main Quad, Durham (~16 mi), 12:00–2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Free pumpkin painting (with purchase of pumpkin), For Garden's Sake, Durham (~16 mi), 1:00–4:00 PM <span class="v">[V]</span></li>
+<li>Hymns for Salted Bones: Hayti Walking Tour, 1201 Fayetteville St, Durham (~16 mi), 2:00–3:30 PM (space limited, registration required), all ages, free <span class="v">[V]</span></li>
+<li><strong>231 Capcom Ave, Wake Forest (~16 mi)</strong> — <a href="https://www.eventbrite.com/e/sneaker-ball-registration-1996402494603">Sneaker Ball</a>, Sat 10/3, 5:00–10:30 PM, ages 13 &amp; up (now stated on the live page), ticket price not shown — <strong>online ticket sales have ENDED</strong> (per the live page this run); tickets were required (Connect Church International 5th-anniversary event; church-sponsored semi-formal/dinner event) <span class="v">[V — opened live this run; corrected since the morning pull]</span></li>
+<li>Music on Mangum: The Ellis Band, Durham Beer Garden (~16 mi), 6:00–9:00 PM, ages not stated, free <span class="v">[V]</span></li>
+<li>Fall Film Series: Beetlejuice (PG), Durham Central Park (~16 mi), 7:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Sacred Grounds Coffeehouse Concert, Sacred Grounds Coffeehouse, Durham (~16 mi), 7:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Motorco Music Hall, Durham (16 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://www.jambase.com/show/bear-ghost-motorco-music-hall-20261003">Bear Ghost w/ Sarah and the Safe Word + Spaceman Bob</a>, Sat 10/3, 8:00 PM</li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Ultimate Homecoming Experience Countdown</a>, Sat 10/3, 10:00 PM–12:00 AM, ages/cost not stated (late-night, college crowd — flag)</li>
+<li><strong>DPAC, Durham (16.2 mi)</strong> — <a href="https://seatgeek.com/fortune-feimster-tickets?aid=10443">Fortune Feimster: Takin' Care of Biscuits Comedy Tour (2 shows)</a>, Sat 10/3, <strong>5:00 PM and 8:00 PM</strong>, ages not stated (stand-up; mature material typical — parental discretion advised), resale <strong>$44–$59</strong> <span class="v">[V dates/times; U prices]</span></li>
+<li><strong>Durham Parks &amp; Rec — Durham Central Park, Durham (~16.6 mi)</strong> — <a href="https://www.eventbrite.com/d/nc--chapel-hill/fall-festivals/">Fall Film Series: Movies in the Park</a>, Sat 10/3, 7:30 PM, family/all-ages, cost not stated, movie title not stated, drop-in <span class="u">[U]</span> (Eventbrite card-level)</li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Mike Campbell &amp; The Dirty Knobs</a>, Sat 10/3, 8:00 PM, Fletcher Hall, ages not stated, ticketed</li>
+<li><strong>Kenan Stadium, Chapel Hill (18.0 mi)</strong> — <a href="https://tarheeltribune.com/2026/09/27/notre-dames-game-at-unc-gets-early-start/">UNC vs Notre Dame (college football)</a>, Sat 10/3, kickoff <strong>12:00 PM ET</strong>, all ages, cost not captured — verify <span class="v">[V]</span></li>
+<li>Wake Forest Diwali Festival, E. Carroll Joyner Park, Wake Forest (~18 mi), 12:00–3:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Carrboro Really Really Free Market, Carrboro Town Commons (~18 mi), 2:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Kevin Atwater &amp; Jessie Mazin</a>, Sat 10/3, 8:00 PM</li>
+<li>Oktoberfest at The Plant in Pittsboro, The Plant, Pittsboro (~27 mi), 12:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Triangle Parade of Homes, Triangle-wide</strong> — <a href="https://waltermagazine.com/events/what-to-do-in-raleigh-in-october-2026/">parade of homes</a>, Sat 10/3–Sun 10/4 (12:00–5:00 PM both days), all ages, FREE (parade runs Oct 3–4, 9–11, 16–18) <span class="v">[V]</span></li>
+<li>Incredible Science (family demo): Wed 9/30 1:30–2:00 PM, Thu 10/1 1:30–2:00 PM, Fri 10/2 1:30–2:00 PM, Sat 10/3 12:30–1:00 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li>Live Animal Feeding: Lobster: Sat 10/3 1:30–1:45 PM, Tue 10/6 1:30–1:45 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p4dtabs1"><input type="radio" name="dtabs1s4" id="dtabs1s40" checked>
+<input type="radio" name="dtabs1s4" id="dtabs1s41">
+<div class="tabbar">
+<label class="tlab" for="dtabs1s40">Morning</label>
+<label class="tlab" for="dtabs1s41">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1s4"><ul class="evt">
+<li><strong>Raleigh Film &amp; Art Festival, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3-day festival</a>, Fri 10/2–Sun 10/4, Peace University, ages not stated, cost "various" — verify on raleighfilmandartfestival.org; films, art, performances, community events <span class="u">[U]</span> (thisisraleigh listing level; festival site not opened)</li>
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Atomic Empire, Durham (~19.4 mi)</strong> — <a href="https://www.findglocal.com/US/Durham/106705860500/Atomic-Empire">Weekly game nights</a>: Sun 10/4 — Pokémon League open play. Ages not stated (generally all-ages; teen welcome not explicitly confirmed), cost/entry fee not stated, drop-in <span class="u">[U]</span> (per store's weekly Facebook schedule via findglocal; this week's exact lineup and times not re-confirmed)</li>
+<li><strong>The Pour House, Raleigh (14 mi)</strong> — <a href="https://www.pourhouseraleigh.com/calendar">AyoDylan w/ Pinkfield, Fusebox</a>, Sun 10/4 (time not stated), all ages (not marked 18+), cost not stated <span class="u">[U]</span> (per pourhouseraleigh.com calendar, fresh crawl)</li>
+<li><strong>Motorco Music Hall, Durham (16 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://www.jambase.com/venue/motorco-music-hall">Weatherday</a>, Sun 10/4 (time not stated)</li>
+<li><strong>Lenovo Center, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Weezer / The Shins / Silversun Pickups</a>, Sun 10/4 (time not stated)</li>
+<li><strong>Museum of Life and Science, Durham (19.2 mi)</strong> — <a href="https://www.lifeandscience.org/explore/events/">Pumpkin Patch Express</a>, Sat 10/3 &amp; Sun 10/4 (weekends in October from Sep 26), train ride to the museum pumpkin patch, all-ages/family, <strong>ticketed — General $24, Children 3–15 $19</strong> (admission prices increased since last run), Seniors 65+ $22, military $22, ages 2 &amp; under free, members free; tickets required. Museum open Tue–Sun 10 AM–5 PM (members 9 AM), closed Mondays. <span class="v">[V]</span></li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+<li>Visit Cow Sanctuary, Brajboro Cow Sanctuary, Chapel Hill (~18 mi), 10:00 AM–2:00 PM, <strong>$0–$25</strong> <span class="v">[V]</span></li>
+<li>Pop Up ARTernative Market, Chapel of Bones Coffee, Raleigh (~14 mi), 10:00 AM–3:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Live Jazz by the Tritone Subs, Lanza's Cafe, Carrboro (~18 mi), 11:00 AM–1:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Sunday Brunch Music (on the lawn), Weaver Street Market, Carrboro (~18 mi), 11:00 AM–1:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Raleigh Film &amp; Art Festival, Raleigh (~14.0 mi)</strong> — <a href="https://thisisraleigh.com/october-events-raleigh/">3-day festival</a>, Fri 10/2–Sun 10/4, Peace University, ages not stated, cost "various" — verify on raleighfilmandartfestival.org; films, art, performances, community events <span class="u">[U]</span> (thisisraleigh listing level; festival site not opened)</li>
+<li><strong>The Pour House, Raleigh (14 mi)</strong> — <a href="https://www.pourhouseraleigh.com/calendar">AyoDylan w/ Pinkfield, Fusebox</a>, Sun 10/4 (time not stated), all ages (not marked 18+), cost not stated <span class="u">[U]</span> (per pourhouseraleigh.com calendar, fresh crawl)</li>
+<li><strong>Lenovo Center, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://doraleigh.com/2026/09/28/triangle-big-ticket-events-week-september-28-october-4-2026/">Weezer / The Shins / Silversun Pickups</a>, Sun 10/4 (time not stated)</li>
+<li>Pop Up ARTernative Market, Chapel of Bones Coffee, Raleigh (~14 mi), 10:00 AM–3:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Motorco Music Hall, Durham (16 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://www.jambase.com/venue/motorco-music-hall">Weatherday</a>, Sun 10/4 (time not stated)</li>
+<li>Visit Cow Sanctuary, Brajboro Cow Sanctuary, Chapel Hill (~18 mi), 10:00 AM–2:00 PM, <strong>$0–$25</strong> <span class="v">[V]</span></li>
+<li>Live Jazz by the Tritone Subs, Lanza's Cafe, Carrboro (~18 mi), 11:00 AM–1:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Sunday Brunch Music (on the lawn), Weaver Street Market, Carrboro (~18 mi), 11:00 AM–1:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Museum of Life and Science, Durham (19.2 mi)</strong> — <a href="https://www.lifeandscience.org/explore/events/">Pumpkin Patch Express</a>, Sat 10/3 &amp; Sun 10/4 (weekends in October from Sep 26), train ride to the museum pumpkin patch, all-ages/family, <strong>ticketed — General $24, Children 3–15 $19</strong> (admission prices increased since last run), Seniors 65+ $22, military $22, ages 2 &amp; under free, members free; tickets required. Museum open Tue–Sun 10 AM–5 PM (members 9 AM), closed Mondays. <span class="v">[V]</span></li>
+<li><strong>Atomic Empire, Durham (~19.4 mi)</strong> — <a href="https://www.findglocal.com/US/Durham/106705860500/Atomic-Empire">Weekly game nights</a>: Sun 10/4 — Pokémon League open play. Ages not stated (generally all-ages; teen welcome not explicitly confirmed), cost/entry fee not stated, drop-in <span class="u">[U]</span> (per store's weekly Facebook schedule via findglocal; this week's exact lineup and times not re-confirmed)</li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs1s4"><ul class="evt">
+<li><strong>Triangle Parade of Homes, Triangle-wide</strong> — <a href="https://waltermagazine.com/events/what-to-do-in-raleigh-in-october-2026/">parade of homes</a>, Sat 10/3–Sun 10/4 (12:00–5:00 PM both days), all ages, FREE (parade runs Oct 3–4, 9–11, 16–18) <span class="v">[V]</span></li>
+<li>Move-A-Bull City Open Streets Event, Downtown Durham (~16 mi), 12:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Cary Underground Market: Bands and Vendors, Bond Brothers Beer Company, Cary (~8 mi), 12:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Morgan Street Sessions, Morgan Street Food Hall &amp; Market, Raleigh (~14 mi), 12:00–4:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Black Farmers' Market in Durham, Durham Technical Community College main campus (~16 mi), 1:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Open Play American Mahjong, Hops &amp; Flower, Durham (~16 mi), 1:00–3:30 PM, ages not stated, free <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Music of the New Nation Concert at Mordecai, Sun 10/4, 1:00–2:00 PM, Mordecai Historic Park, ages/cost not on card (free typical) <span class="v">[V]</span></li>
+<li><strong>NC Museum of Art, Raleigh (9.2 mi)</strong> — calendar (visit.ncartmuseum.org/events) still JS-only and unrenderable; no Teen Night in window confirmed. Per search crawl <span class="u">[U]</span>: Sun 10/4 — Public Tour 1:00–2:00 PM, "Breaking the Bank: The Secret Life of Roman Piggy Banks" 2:00–3:30 PM. Ages/cost not stated. <span class="u">[U]</span></li>
+<li>Instrument Petting Zoo, Gipson Play Plaza, Dix Park, Raleigh (~14 mi), 2:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Pop Up Music at Midtown Park, Midtown Park, Raleigh (~14 mi), 2:00–5:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Blessing of the Animals, St. Ambrose Episcopal Church, Raleigh (~14 mi), 2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~9.2 mi)</strong> — Friends of Greek Art Lecture: The Secret Life of Roman Piggy Banks, Sun 10/4, 2:00–3:30 PM, NC Museum of Art, ages/cost not on card (free typical) <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">SIX: The Musical Live!</a>, Fri 10/2, 2:00 PM, Sat 10/3, 5:00 PM, Sun 10/4, 3:00 PM, teen-relevant</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">The Magic Faraway Tree</a>, Sat 10/3, 2:00 PM and Sun 10/4, 12:00 PM, family</li>
+<li>Blessing of the Animals at Duke Chapel, Duke Chapel Quad, Durham (~16 mi), 3:00–3:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Fall Festival at Highland UMC, Highland United Methodist Church, Raleigh (~14 mi), 4:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://thelightnc.com/12362292/nccu-homecoming-gospel-concert/">Ultimate Homecoming Experience Gospel Concert</a> (The Walls Group, Jonathan McReynolds, Pastor Mike Jr.), Sun 10/4, 5:00 PM, all ages, cost not stated (Light 103.9 ticket giveaways — verify)</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">National Theatre Live: The Misanthrope</a>, Sun 10/4, 6:00 PM. Nothing listed Mon 10/5 or Tue 10/6.</li>
+<li>Jazz'd up Sundays: Tia Fuller, Downtown Cary Park (~6 mi), 6:30–8:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Deadford Manor — animatronic singing skeleton show, Raleigh (~14 mi), 7:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Holy Trinity Concert Series: Daniel Ayers, Holy Trinity Lutheran Church, Raleigh (~14 mi), 7:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Six Foot Blonde (Back Room)</a>, Sun 10/4, 8:00 PM</li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Grupo Duelo</a>, Sun 10/4, 8:00 PM</li>
+<li><strong>Red Hat Amphitheater, Raleigh (14 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Dermot Kennedy w/ Jonah Kagen</a>, Sun 10/4, 8:00 PM</li>
+</ul><ul class="evd">
+<li>Jazz'd up Sundays: Tia Fuller, Downtown Cary Park (~6 mi), 6:30–8:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Cary Underground Market: Bands and Vendors, Bond Brothers Beer Company, Cary (~8 mi), 12:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">SIX: The Musical Live!</a>, Fri 10/2, 2:00 PM, Sat 10/3, 5:00 PM, Sun 10/4, 3:00 PM, teen-relevant</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">The Magic Faraway Tree</a>, Sat 10/3, 2:00 PM and Sun 10/4, 12:00 PM, family</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">National Theatre Live: The Misanthrope</a>, Sun 10/4, 6:00 PM. Nothing listed Mon 10/5 or Tue 10/6.</li>
+<li><strong>NC Museum of Art, Raleigh (9.2 mi)</strong> — calendar (visit.ncartmuseum.org/events) still JS-only and unrenderable; no Teen Night in window confirmed. Per search crawl <span class="u">[U]</span>: Sun 10/4 — Public Tour 1:00–2:00 PM, "Breaking the Bank: The Secret Life of Roman Piggy Banks" 2:00–3:30 PM. Ages/cost not stated. <span class="u">[U]</span></li>
+<li><strong>RaleighParent, Raleigh (~9.2 mi)</strong> — Friends of Greek Art Lecture: The Secret Life of Roman Piggy Banks, Sun 10/4, 2:00–3:30 PM, NC Museum of Art, ages/cost not on card (free typical) <span class="v">[V]</span></li>
+<li>Morgan Street Sessions, Morgan Street Food Hall &amp; Market, Raleigh (~14 mi), 12:00–4:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Music of the New Nation Concert at Mordecai, Sun 10/4, 1:00–2:00 PM, Mordecai Historic Park, ages/cost not on card (free typical) <span class="v">[V]</span></li>
+<li>Instrument Petting Zoo, Gipson Play Plaza, Dix Park, Raleigh (~14 mi), 2:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Pop Up Music at Midtown Park, Midtown Park, Raleigh (~14 mi), 2:00–5:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Blessing of the Animals, St. Ambrose Episcopal Church, Raleigh (~14 mi), 2:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Fall Festival at Highland UMC, Highland United Methodist Church, Raleigh (~14 mi), 4:00–6:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li>Deadford Manor — animatronic singing skeleton show, Raleigh (~14 mi), 7:00–8:30 PM, all ages, free <span class="v">[V]</span></li>
+<li>Holy Trinity Concert Series: Daniel Ayers, Holy Trinity Lutheran Church, Raleigh (~14 mi), 7:00 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Grupo Duelo</a>, Sun 10/4, 8:00 PM</li>
+<li><strong>Red Hat Amphitheater, Raleigh (14 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Dermot Kennedy w/ Jonah Kagen</a>, Sun 10/4, 8:00 PM</li>
+<li>Move-A-Bull City Open Streets Event, Downtown Durham (~16 mi), 12:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Black Farmers' Market in Durham, Durham Technical Community College main campus (~16 mi), 1:00–4:00 PM, all ages, free <span class="v">[V]</span></li>
+<li>Open Play American Mahjong, Hops &amp; Flower, Durham (~16 mi), 1:00–3:30 PM, ages not stated, free <span class="v">[V]</span></li>
+<li>Blessing of the Animals at Duke Chapel, Duke Chapel Quad, Durham (~16 mi), 3:00–3:30 PM, all ages, free, no registration shown <span class="v">[V]</span></li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://thelightnc.com/12362292/nccu-homecoming-gospel-concert/">Ultimate Homecoming Experience Gospel Concert</a> (The Walls Group, Jonathan McReynolds, Pastor Mike Jr.), Sun 10/4, 5:00 PM, all ages, cost not stated (Light 103.9 ticket giveaways — verify)</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Six Foot Blonde (Back Room)</a>, Sun 10/4, 8:00 PM</li>
+<li><strong>Triangle Parade of Homes, Triangle-wide</strong> — <a href="https://waltermagazine.com/events/what-to-do-in-raleigh-in-october-2026/">parade of homes</a>, Sat 10/3–Sun 10/4 (12:00–5:00 PM both days), all ages, FREE (parade runs Oct 3–4, 9–11, 16–18) <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p5dtabs1"><input type="radio" name="dtabs1s5" id="dtabs1s50" checked>
+<input type="radio" name="dtabs1s5" id="dtabs1s51">
+<div class="tabbar">
+<label class="tlab" for="dtabs1s50">Morning</label>
+<label class="tlab" for="dtabs1s51">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1s5"><ul class="evt">
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+</ul><ul class="evd">
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs1s5"><ul class="evt">
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li><strong>Dorothea Dix Park (The Big Field), Raleigh (~14 mi)</strong> — <a href="https://www.meetup.com/meetup-group-srvcvnpa/">Raleigh Spikeball Meetup — Weekly Spike</a>, Mon 10/5, 5:00 PM, "everyone is welcome" (all ages), free (bring a net if you have one), RSVP on Meetup <span class="u">[U — search-result-level; not opened live]</span></li>
+<li><strong>Side Quest Game Lounge + Bar, Raleigh (~14 mi)</strong> — <a href="https://www.meetup.com/triangle-go-group/">Go in Downtown Raleigh at Sidequest Game Lounge</a>, Mon 10/5, 6:00–10:00 PM, all ages (group says "All ages are welcome"; the group plays the board game Go), cost not stated (buy snacks/drinks if you like), no registration shown <span class="u">[U — search-result-level; group page not opened live]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">National Theatre Live: The Misanthrope</a>, Sun 10/4, 6:00 PM. Nothing listed Mon 10/5 or Tue 10/6.</li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Coronation of Miss and Mister NCCU</a>, Mon 10/5, 6:00 PM, ages/cost not stated</li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://tourlala.com/venues/the-ritz---raleigh-raleigh-nc">Amyl and The Sniffers</a>, Mon 10/5, 7:00 PM (one aggregator also lists Amyl at Red Hat 10/5; Ritz placement has 2 sources vs 1 — verify)</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Black Country, New Road</a>, Mon 10/5, 8:00 PM</li>
+</ul><ul class="evd">
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">National Theatre Live: The Misanthrope</a>, Sun 10/4, 6:00 PM. Nothing listed Mon 10/5 or Tue 10/6.</li>
+<li><strong>Dorothea Dix Park (The Big Field), Raleigh (~14 mi)</strong> — <a href="https://www.meetup.com/meetup-group-srvcvnpa/">Raleigh Spikeball Meetup — Weekly Spike</a>, Mon 10/5, 5:00 PM, "everyone is welcome" (all ages), free (bring a net if you have one), RSVP on Meetup <span class="u">[U — search-result-level; not opened live]</span></li>
+<li><strong>Side Quest Game Lounge + Bar, Raleigh (~14 mi)</strong> — <a href="https://www.meetup.com/triangle-go-group/">Go in Downtown Raleigh at Sidequest Game Lounge</a>, Mon 10/5, 6:00–10:00 PM, all ages (group says "All ages are welcome"; the group plays the board game Go), cost not stated (buy snacks/drinks if you like), no registration shown <span class="u">[U — search-result-level; group page not opened live]</span></li>
+<li><strong>The Ritz, Raleigh (14 mi)</strong> — all ages (venue states ALL AGES; kids 2 and under free), cost not stated <span class="u">[U]</span>: <a href="https://tourlala.com/venues/the-ritz---raleigh-raleigh-nc">Amyl and The Sniffers</a>, Mon 10/5, 7:00 PM (one aggregator also lists Amyl at Red Hat 10/5; Ritz placement has 2 sources vs 1 — verify)</li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Coronation of Miss and Mister NCCU</a>, Mon 10/5, 6:00 PM, ages/cost not stated</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Black Country, New Road</a>, Mon 10/5, 8:00 PM</li>
+</ul></section>
+</div></section>
+<section class="pane p6dtabs1"><input type="radio" name="dtabs1s6" id="dtabs1s60" checked>
+<input type="radio" name="dtabs1s6" id="dtabs1s61">
+<div class="tabbar">
+<label class="tlab" for="dtabs1s60">Morning</label>
+<label class="tlab" for="dtabs1s61">Evening</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs1s6"><ul class="evt">
+<li><strong>Epilogue Books Chocolate Brews, Chapel Hill (~18.1 mi)</strong> — Tuesday Night Trivia with Dorian, Tue 10/6 (weekly Tuesday pattern — last confirmed 9/22; time not stated), ages not stated, free; prizes are free books and gift cards <span class="u">[U]</span> (weekly pattern inferred from store posts + Daily Tar Heel profile; no Oct 6 post confirmed)</li>
+<li><strong>Raleigh Parks &amp; Rec — Pullen Park, Raleigh (~13.2 mi)</strong> — <a href="https://cardinalpine.com/local/free-outdoor-movies-north-carolina/">First-Tuesday outdoor movie series (April–October)</a>, Tue 10/6 (screening start time not stated), 520 Ashe Avenue, family/all-ages, free, drop-in <span class="u">[U]</span> (aggregator-level; film not confirmed — aggregator suggests Toy Story 5, TBA on official listing)</li>
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://www.visitraleigh.com/plan-a-trip/visitraleigh-insider-blog/post/fall-arts-ballet-symphony-opera-raleigh/">Public Image Ltd (John Lydon)</a>, Tue 10/6 (time not stated)</li>
+<li><strong>Red Hat Amphitheater, Raleigh (14 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Bleachers</a>, Tue 10/6 (time not stated)</li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">10:40 Break</a>, Tue 10/6, 10:40 AM, Library (Greek) Bowl, campus-oriented, details thin <span class="u">[U]</span></li>
+</ul><ul class="evd">
+<li><strong>Titmus Theatre, NC State, Raleigh (12.5 mi)</strong> — <a href="http://calendar.ncsu.edu/calendar/2">Metamorphoses — NC State University Theatre</a>, opens Thu 10/1 (runs 10/1–10/11; in-window Thu 10/1–Tue 10/6), all ages, <strong>$9.99–$27</strong> (showtimes not on card — check listing before going) <span class="v">[V]</span></li>
+<li><strong>Raleigh Parks &amp; Rec — Pullen Park, Raleigh (~13.2 mi)</strong> — <a href="https://cardinalpine.com/local/free-outdoor-movies-north-carolina/">First-Tuesday outdoor movie series (April–October)</a>, Tue 10/6 (screening start time not stated), 520 Ashe Avenue, family/all-ages, free, drop-in <span class="u">[U]</span> (aggregator-level; film not confirmed — aggregator suggests Toy Story 5, TBA on official listing)</li>
+<li><strong>Lincoln Theatre, Raleigh (14 mi)</strong> — ages/cost not stated <span class="u">[U]</span>: <a href="https://www.visitraleigh.com/plan-a-trip/visitraleigh-insider-blog/post/fall-arts-ballet-symphony-opera-raleigh/">Public Image Ltd (John Lydon)</a>, Tue 10/6 (time not stated)</li>
+<li><strong>Red Hat Amphitheater, Raleigh (14 mi)</strong> — all-ages assumed (ages/cost not stated) <span class="u">[U]</span>: <a href="https://thisisraleigh.com/october-events-raleigh/">Bleachers</a>, Tue 10/6 (time not stated)</li>
+<li><strong>McDougald-McLendon Arena / NCCU campus, Durham (16 mi)</strong> — NCCU Homecoming week <span class="u">[U]</span> (<a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">Discover Durham guide</a>): <a href="https://www.discoverdurham.com/blog/nccu-homecoming-durham-guide/">10:40 Break</a>, Tue 10/6, 10:40 AM, Library (Greek) Bowl, campus-oriented, details thin <span class="u">[U]</span></li>
+<li><strong>Epilogue Books Chocolate Brews, Chapel Hill (~18.1 mi)</strong> — Tuesday Night Trivia with Dorian, Tue 10/6 (weekly Tuesday pattern — last confirmed 9/22; time not stated), ages not stated, free; prizes are free books and gift cards <span class="u">[U]</span> (weekly pattern inferred from store posts + Daily Tar Heel profile; no Oct 6 post confirmed)</li>
+<li><strong>Duke University Chapel, Durham (~19.4 mi)</strong> — <a href="https://triangleonthecheap.com/events/view-all/">Día de Muertos ofrenda</a>, Oct 2–Nov 5, 10:00 AM–8:00 PM daily → in window Fri 10/2–Tue 10/6, Duke Chapel 401 Chapel Hill Dr, all ages, FREE, drop-in; communal Day of the Dead altar by artist Ricky Armendariz; visitors invited to contribute photos/mementos/tributes <span class="v">[V]</span></li>
+</ul></section>
+<section class="pane p1dtabs1s6"><ul class="evt">
+<li>Live Animal Feeding: Lobster: Sat 10/3 1:30–1:45 PM, Tue 10/6 1:30–1:45 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li><strong>Frontier RTP, Durham (~8 mi)</strong> — <a href="https://www.eventbrite.co.nz/d/nc--raleigh/teen/">Triangle Domino Club: Build &amp; Topple Together (Free)</a>, Tue 10/6, 3:30 PM (weekly recurring, "+48 more" sessions), ages not stated — listed on Eventbrite's Raleigh teen-events page, FREE, register on Eventbrite <span class="u">[U — seen on the live teen-listing page today; not opened individually]</span></li>
+<li><strong>Morrisville Parks &amp; Rec, Morrisville (~1.4 mi)</strong> — <a href="https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Program-Guide">TeenFit</a>, new session starts Tue 10/6 (Oct 6–27), Tuesdays 4:30–5:20 PM, Morrisville Aquatics &amp; Fitness Center, ages 11–14, fee-based (cost not stated; resident registration from Sep 8, non-resident Sep 15), registration required <span class="u">[U]</span> (via town social post; guide PDF not opened live)</li>
+<li><strong>Holly Springs PR, Holly Springs (~15.5 mi)</strong> — <a href="http://www.hollyspringsnc.gov/m/newsflash/Home/Detail/1763">National Night Out</a>, Tue 10/6, 6:00–8:30 PM, free, family/community evening with police, fire, and community partners, all ages, drop-in <span class="u">[U]</span> (town newsflash page)</li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">National Theatre Live: The Misanthrope</a>, Sun 10/4, 6:00 PM. Nothing listed Mon 10/5 or Tue 10/6.</li>
+<li><strong>Quail Ridge Books, Raleigh (13.6 mi)</strong> — <a href="https://quailridgebooks.com/event/benjaminbradley26">Benjamin Bradley | The Devil You Know</a>, Tue 10/6, 6:30 PM (end time not stated), ages not stated, ticketed (ticket includes copy of <em>The Devil You Know</em>; Eventbrite shows "Starts at $0" — confirm price on event page), ticket required via Eventbrite, in conversation with J.G. Hetherton + signing <span class="u">[U]</span> (store /events page listing runs through 9/30 only; corroborated via the event URL + Eventbrite listing)</li>
+<li><strong>Online</strong> — <a href="https://www.eventbrite.com/e/raleighs-ai-and-data-center-community-conversation-tickets-2001014848277">Raleigh's AI and Data Center Community Conversation</a>, 6:30–8:00 PM EDT, Zoom webinar ("All are welcome to join!" — community discussion on AI, data centers, energy, water, jobs), cost not stated (free RSVP; no ticket price shown), Eventbrite registration required <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Morrisville (~1–2 mi)</strong> — Abhinaya Intensive (dance), Tue 10/6, 7:00–9:00 PM, 1018 Morrisville Pkwy, ages not stated, cost not on card — verify <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Square Dance Party and Beginner Lessons with Capital Squares, Tue 10/6, 7:00–9:00 PM, St. James United Methodist Church, ages not stated, cost not stated on card <span class="v">[V]</span></li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Fred Armisen: Comedy for Musicians But Everyone is Welcome</a>, Tue 10/6, 7:00 PM, Fletcher Hall, ages not stated (comedy — parental discretion advised), ticketed <span class="v">[V]</span></li>
+<li><strong>DPAC, Durham (16.2 mi)</strong> — <a href="https://nypost.com/2026/09/21/ticket-sales/tom-jones-2026-tour-is-underway-how-much-are-last-minute-tickets/">Tom Jones: Come Gather Round Tour</a>, Tue 10/6, <strong>8:00 PM</strong>, ages not stated (adult-skewing, no age restriction), resale <strong>~$141–$159</strong> incl. fees. Ticketmaster-listed via DPAC. <span class="v">[V date/time; U prices]</span></li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Theo Katzman</a>, Tue 10/6, 8:00 PM</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">The Takes (Back Room)</a>, Tue 10/6, 8:00 PM</li>
+</ul><ul class="evd">
+<li><strong>Morrisville Parks &amp; Rec, Morrisville (~1.4 mi)</strong> — <a href="https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Program-Guide">TeenFit</a>, new session starts Tue 10/6 (Oct 6–27), Tuesdays 4:30–5:20 PM, Morrisville Aquatics &amp; Fitness Center, ages 11–14, fee-based (cost not stated; resident registration from Sep 8, non-resident Sep 15), registration required <span class="u">[U]</span> (via town social post; guide PDF not opened live)</li>
+<li><strong>Frontier RTP, Durham (~8 mi)</strong> — <a href="https://www.eventbrite.co.nz/d/nc--raleigh/teen/">Triangle Domino Club: Build &amp; Topple Together (Free)</a>, Tue 10/6, 3:30 PM (weekly recurring, "+48 more" sessions), ages not stated — listed on Eventbrite's Raleigh teen-events page, FREE, register on Eventbrite <span class="u">[U — seen on the live teen-listing page today; not opened individually]</span></li>
+<li><strong>The Cary Theater, Cary (8 mi)</strong> — events listing opened live this run <a href="https://thecarytheater.com/events-list/">V</a>; all ages unless noted; cost not shown on listing page (screenings typically ~$9 — verify): <a href="https://thecarytheater.com/events-list/">National Theatre Live: The Misanthrope</a>, Sun 10/4, 6:00 PM. Nothing listed Mon 10/5 or Tue 10/6.</li>
+<li><strong>Quail Ridge Books, Raleigh (13.6 mi)</strong> — <a href="https://quailridgebooks.com/event/benjaminbradley26">Benjamin Bradley | The Devil You Know</a>, Tue 10/6, 6:30 PM (end time not stated), ages not stated, ticketed (ticket includes copy of <em>The Devil You Know</em>; Eventbrite shows "Starts at $0" — confirm price on event page), ticket required via Eventbrite, in conversation with J.G. Hetherton + signing <span class="u">[U]</span> (store /events page listing runs through 9/30 only; corroborated via the event URL + Eventbrite listing)</li>
+<li><strong>RaleighParent, Raleigh (~14 mi)</strong> — Square Dance Party and Beginner Lessons with Capital Squares, Tue 10/6, 7:00–9:00 PM, St. James United Methodist Church, ages not stated, cost not stated on card <span class="v">[V]</span></li>
+<li><strong>Raleigh Parks &amp; Rec, Raleigh (~14.2 mi)</strong> — <a href="https://raleighnc.gov/parks-and-recreation/news/teen-trek-out">Teen Zone Afterschool (ongoing)</a>, Wed 9/30, Thu 10/1, Fri 10/2, Mon 10/5, Tue 10/6, 3:00–6:00 PM, ages middle &amp; high school, free with Raleigh Teen Connect Membership (register in person / email Teens@raleighnc.gov / RecLink), drop-in (locations: Green Road Park, John Chavis Memorial Park, Roberts Park, Saint Monica Teen Center, Peach Road Park Tue/Thu) <span class="u">[U]</span></li>
+<li><strong>Holly Springs PR, Holly Springs (~15.5 mi)</strong> — <a href="http://www.hollyspringsnc.gov/m/newsflash/Home/Detail/1763">National Night Out</a>, Tue 10/6, 6:00–8:30 PM, free, family/community evening with police, fire, and community partners, all ages, drop-in <span class="u">[U]</span> (town newsflash page)</li>
+<li><strong>DPAC, Durham (16.2 mi)</strong> — <a href="https://nypost.com/2026/09/21/ticket-sales/tom-jones-2026-tour-is-underway-how-much-are-last-minute-tickets/">Tom Jones: Come Gather Round Tour</a>, Tue 10/6, <strong>8:00 PM</strong>, ages not stated (adult-skewing, no age restriction), resale <strong>~$141–$159</strong> incl. fees. Ticketmaster-listed via DPAC. <span class="v">[V date/time; U prices]</span></li>
+<li><strong>Carolina Theatre, Durham (16.6 mi)</strong> — events listing opened live this run <a href="https://carolinatheatre.org/events/">V</a>: <a href="https://carolinatheatre.org/events/">Fred Armisen: Comedy for Musicians But Everyone is Welcome</a>, Tue 10/6, 7:00 PM, Fletcher Hall, ages not stated (comedy — parental discretion advised), ticketed <span class="v">[V]</span></li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">Theo Katzman</a>, Tue 10/6, 8:00 PM</li>
+<li><strong>Cat's Cradle, Carrboro (18 mi)</strong> — all-ages venue; per-show age policy and prices not stated (none on listings) <span class="u">[U]</span>: <a href="https://tourlala.com/venues/cat-s-cradle-carrboro-nc">The Takes (Back Room)</a>, Tue 10/6, 8:00 PM</li>
+<li>Live Animal Feeding: Lobster: Sat 10/3 1:30–1:45 PM, Tue 10/6 1:30–1:45 PM. Ages not stated. Free. <span class="v">[V]</span></li>
+<li><strong>Online</strong> — <a href="https://www.eventbrite.com/e/raleighs-ai-and-data-center-community-conversation-tickets-2001014848277">Raleigh's AI and Data Center Community Conversation</a>, 6:30–8:00 PM EDT, Zoom webinar ("All are welcome to join!" — community discussion on AI, data centers, energy, water, jobs), cost not stated (free RSVP; no ticket price shown), Eventbrite registration required <span class="v">[V]</span></li>
+<li><strong>RaleighParent, Morrisville (~1–2 mi)</strong> — Abhinaya Intensive (dance), Tue 10/6, 7:00–9:00 PM, 1018 Morrisville Pkwy, ages not stated, cost not on card — verify <span class="v">[V]</span></li>
+</ul></section>
+</div></section>
+<section class="pane p7dtabs1"><ul>
+<li><strong>Cary Teen Council (ongoing)</strong> — grades 8–10, Cary residents only, $25 registration (includes t-shirt); monthly meetings, locations vary; no confirmed one-off in-window event <span class="u">[U]</span></li>
+<li><strong>Durham Parks &amp; Rec, Durham (~16.4 mi)</strong> — <a href="https://www.dprplaymore.org/436/My-Durham-Teen-Zone">My Durham Teen Zone (ongoing)</a>, free membership → drop-in teen programming at Durham Teen Center (1101 Cornell St) &amp; Weaver Street Rec Center (3000 W Weaver St), ages 13–17, free (membership); free facility/aquatic access for city residents, $5/day non-residents <span class="v">[V]</span></li>
+<li><strong>Chapel Hill Parks &amp; Rec, Chapel Hill (~18.5 mi)</strong> — The Corner Teen Center (ongoing), downtown Chapel Hill, Mon–Sat 5:00–9:00 PM during CHCCS school year (closed Sundays), ages middle &amp; high school, cost not stated (town rec facility), drop-in <span class="u">[U]</span> (chapelhillnc.gov page; WebTrac activity portal still does not render)</li>
+<li><strong>Standing info (no dated event):</strong> Activate Good runs the Youth Volunteer Corps of the Greater Triangle — volunteer opportunities for ages 11–18; see current shift listings on Activate Good's own site and the teen-volunteering guide at <a href="https://frscommunications.com/2026/03/01/teen-volunteer-opportunities/">FRS Communications</a>.</li>
+<li><strong>Also checked:</strong> INDY Week (no in-window events calendar found); WRAL Out &amp; About (roundup lists only Oct 17+ events); Visit Raleigh / Discover Durham October roundups (used for the town items above).</li>
+</ul></section>
+</div></section>
+<section class="pane p2dtab"><input type="radio" name="dtabs2" id="dtabs20" checked>
+<input type="radio" name="dtabs2" id="dtabs21">
+<input type="radio" name="dtabs2" id="dtabs22">
+<div class="tabbar">
+<label class="tlab" for="dtabs20">Closures</label>
+<label class="tlab" for="dtabs21">Not verified</label>
+<label class="tlab" for="dtabs22">Sources</label>
+</div>
+<div class="panes">
+<section class="pane p0dtabs2"><ul>
+<li><strong>CANCELLATION:</strong> Orange County Main Library's Teen Advisory Group Meeting (Wed 9/30, 5:00–6:00 PM, grades 8–12) is <strong>STILL CANCELLED</strong> on the live LibCal day feed this run — do not go.</li>
+<li><strong>CORRECTION from prior runs:</strong> nora chipaumire: Dambudzo was listed as a Duke Arts event Fri 10/2–Sun 10/4 — the live page is an archive of the <strong>Oct 2025</strong> run. No 2026 edition exists; it has been dropped.</li>
+<li><strong>CORRECTION:</strong> Durham's "Food &amp; Fiction" Wednesdays — the live staff page shows the next instance is Wed Oct 7 (outside the window). Not listed this run.</li>
+<li><strong>NC Museum of History (Raleigh) building is CLOSED for renovation until 2028:</strong> offsite programs only.</li>
+<li><strong>Museum of Life and Science admission:</strong> General <strong>$24</strong>, children ages 3–15 <strong>$19</strong> (re-verified this run). Museum closed Mondays Sep–May.</li>
+<li><strong>No federal or system-wide library closures in the window</strong> (Columbus Day is Mon Oct 12 — outside window). Lee County branches closed Sundays; both Lee branches otherwise normally open. PLJCS (Smithfield) is CLOSED Fri 10/2 for staff development.</li>
+<li><strong>NC Museum of Art:</strong> East Building under renovation (some exhibitions may be affected).</li>
+<li><strong>Granville's Thursday teen program is at Thornton Library in Oxford (~47 mi, out of radius), not the in-radius South Granville/Creedmoor branch.</strong> The in-radius Creedmoor branch's Craft Time is age-unstated.</li>
+<li><strong>Sneaker Ball (Sat 10/3, Eventbrite):</strong> ages 13 &amp; up confirmed on the live page; <strong>online ticket sales have ended</strong> — door tickets unconfirmed.</li>
+<li><strong>NC State Wolfpack vs Louisville kickoff time conflicts</strong> between sources (RaleighParent says 7:00 PM, eTickets says 3:30 PM, TicketSmarter says TBA) — verify at gopack.com before going. Resale from ~$69.59.</li>
+<li><strong>UNC Chapel Thrill / Chase Rice concert (Sat 10/3):</strong> concert begins ~9:00 AM, 2 hrs before the 12:00 PM kickoff; areas open ~8:00 AM.</li>
+<li><strong>DPAC ticket prices</strong> (Fortune Feimster resale $44–$59; Tom Jones resale ~$141–$159 incl. fees) — verify on the individual event/Ticketmaster pages before going.</li>
+<li><strong>Amyl and The Sniffers (Mon 10/5):</strong> conflicting venue listings (The Ritz vs Red Hat); placed at The Ritz (2 sources vs 1) — verify.</li>
+<li><strong>Durham Teen Zone:</strong> free with membership; free facility/aquatic access for city residents, $5/day for non-residents. Youth GoPass: ages 13–18 ride GoDurham/GoRaleigh/GoCary/GoTriangle buses free.</li>
+<li><strong>Triangle on the Cheap calendar covered Wed 9/30–Sun 10/4 only</strong> — Mon 10/5 and Tue 10/6 had no listings on the page; see Meetup and Eventbrite for those days.</li>
+<li><strong>RaleighParent Esports &amp; Gaming category: ZERO events for this window</strong> (no gaming events found in any source this run).</li>
+<li><strong>Age-gate flags:</strong> Fortune Feimster (DPAC, Sat 10/3) — stand-up, mature material typical; Fred Armisen (Carolina Theatre, Tue 10/6) — comedy; NCCU Homecoming Countdown (Sat 10/3, 10:00 PM–midnight) — late-night college crowd. Parental discretion advised.</li>
+<li><strong>Morehead Planetarium October Teen Science Café</strong> ("Exploring the Future of Moon Travel", ages 13–18, free): listed on Morehead's teen-programs calendar as the October café, but no specific October date/time found — date unconfirmed.</li>
+<li><strong>Hackathons &amp; robotics:</strong> none in window. HackNC 2026 dates not announced; Carolina Data Challenge 2026 not dated; FIRST NC tournaments run Nov–Jan. <strong>Flagged for the next run:</strong> Wake Tech "AI for Everyday Life" (free, public, RTP campus + virtual), Thu 10/8, 3:00–4:30 PM; Duke "Learn R: Intro to Using AI with R" Fri 10/9; IEEE STEM Spark! (grades 5–12) Sat 10/10.</li>
+<li><strong>Flagged (not swept this run):</strong> Theatre in the Park presents <em>Evil Dead: The Musical</em> (Oct 1–11, Raleigh) — in-window but not an assigned source this run.</li>
+<li><strong>Chapel Hill Craft Night and Lock O'Clock</strong> continue as standing teen programs; registration is required only where the listing says so (default is drop-in).</li>
+</ul></section>
+<section class="pane p1dtabs2"><ul>
+<li><strong>Wake County — teen coverage CRACKED late 9/29 (~11:30 PM PT):</strong> the county calendar's teen-audience filter (audience id 57) was walked end-to-end in a real browser, date-sorted, covering the full window — 11 in-window teen events found, all merged into the day lists above. Branches with no in-window teen events: Cary Regional, Duraleigh Rd, Middle Creek, Richard B. Harrison, Holly Springs, Southgate, Olivia Raney, Fuquay-Varina, Wake Forest, Wendell, Zebulon, Leesville, North Regional. Method notes for future runs: text fetch still 403s on wake.gov listing/filter pages; wake.gov/news pages and wake.gov/events/<code>&lt;slug&gt;</code> detail pages DO load via text fetch; the teen-filtered listing URL pattern is wake.gov/events?field_department_target_id=All&amp;field_event_type_target_id=504&amp;field_event_audience_target_id[0]=57&amp;location=All&amp;page=N.</li>
+<li><strong>Durham County (6 of 7 branches unverifiable for day listings):</strong> South Regional (~8.5 mi), Southwest Regional (~15 mi), Stanford L. Warren (~15 mi), East Regional (~14 mi), Main (~16 mi), Bragtown (~20 mi). LibCal is JS-only and per-location pages render "today's events" only — no full day-by-day verification possible without a live browser. North Regional teen events verified via the live staff page (Dominique).</li>
+<li><strong>Chapel Hill:</strong> Sun 10/4 and Mon 10/5 day feeds returned no extractable content (worker-level failure, not an HTTP denial) — likely no events posted, but unconfirmed.</li>
+<li><strong>Granville — Richard H. Thornton Library, Oxford (~47 mi):</strong> weekly Thursday 6:00 PM teen program exists but no October 2026 confirmation found; no fresh Facebook mirror posts.</li>
+<li><strong>Johnston — Selma (~48 mi), Benson (~45 mi), Kenly (~56 mi), Princeton (~58 mi), Four Oaks (~45 mi) affiliates:</strong> no October 2026 teen programming found anywhere indexed; affiliates have no separate calendars. Hocutt-Ellington (Clayton, ~31 mi): monthly teen programs exist but no October dates confirmed.</li>
+<li><strong>Alamance — Graham (~47 mi), May Memorial Burlington (~51 mi), Mebane (~40 mi), North Park Burlington (~48 mi), Mobile Library/BookMARK:</strong> no October 2026 teen events confirmed. LibCal minicalendar ignores date param; the October ACPL news release has not been published; the ACPL Facebook mirror is stale (posts through 9/22 only). Anime Club: Shojo at North Park shows only an April 13, 2026 instance.</li>
+<li><strong>Person County Public Library, Roxboro (~52 mi):</strong> no October 2026 programming found. No October PDF calendar indexed; personcountync.gov/government/publiclibrary returned a 403.</li>
+<li><strong>Franklin County — Youngsville (~31 mi), Franklinton (~37 mi):</strong> no October 2026 teen events found; county Library page points to an Events page with no event details surfacing.</li>
+<li><strong>Bookstores/parks/museums:</strong> B&amp;N Cary events list JS-only (unverified); Game Theory (Raleigh) — no events calendar URL found verbatim; Ultimate Comics — no teen game-night schedule published; So &amp; So Books — no events calendar URL found; NCMA calendar JS-only (listings from a search crawl); Chapel Hill WebTrac, Apex PEAKconnect, Morrisville guide PDF, and the YMCA Personify portal did not render live this run.</li>
+<li><strong>Movie-house October schedules</strong> (Chelsea + Varsity, Chapel Hill; Alamo Drafthouse Raleigh) and the <strong>NC Museum of Natural Sciences / Morehead Planetarium</strong> live calendars surfaced no capturable in-window listings this run.</li>
+<li><strong>UNC general calendar</strong> rendered only Tue 9/29–Wed 9/30 — the rest of the window is partial coverage.</li>
+<li><strong>NC State calendar</strong> rendered only Tue 9/29–Thu 10/1 — Fri 10/2–Mon 10/5 not captured, no Tue 10/6 coverage on that page.</li>
+<li><strong>Duke base calendar (calendar.duke.edu)</strong> is JS-rendered and unusable this run; Duke items came from the Libraries LibCal feed + arts.duke.edu index + Triangle on the Cheap live calendar instead.</li>
+<li><strong>Facebook Events:</strong> facebook-cli connector not connected; public FB events login-walled and not web-indexable — unverifiable this run.</li>
+<li><strong>Verified ZERO this run (checked, nothing in the window):</strong> Lee Main and Broadway branches (live-verified 9/29); Orange Southern (Carrboro); Carolina Performing Arts season (opens Oct 13); PlayMakers (no in-window productions); Raleigh Little Theatre; Theatre Raleigh; Carolina Ballet; Wake Tech; Campbell (Homecoming Oct 16–17); William Peace (no upcoming Leggett Theatre events); Meredith (no verifiable in-window events); Coastal Credit Union Music Park; RaleighParent Esports &amp; Gaming category; teen orgs / teen councils / 4-H / Activate Good (no dated in-window events); Durham Tech; Garner town calendar; YMCA of the Triangle (no dated in-window teen events); Koka Booth (only Triangle Oktoberfest — listed under town items); Carolina Mudcats (season over).</li>
+</ul></section>
+<section class="pane p2dtabs2"><ul>
+<li>Wake — <a href="https://www.wake.gov/library-events">wake.gov/library-events</a> / <a href="https://www.wakegov.com/events?field_department_target_id=25&amp;field_event_type_target_id=All&amp;field_event_audience_target_id=All&amp;location=All">wakegov.com/events</a></li>
+<li>Durham — <a href="https://durhamcountylibrary.libcal.com/calendar?cid=14288">durhamcountylibrary.libcal.com/calendar?cid=14288</a></li>
+<li>Orange — <a href="https://orangecountync.librarycalendar.com/events/month">orangecountync.librarycalendar.com/events/month</a></li>
+<li>Chapel Hill — <a href="https://www.chapelhillpubliclibrary.org/events/month">chapelhillpubliclibrary.org/events/month</a></li>
+<li>Chatham — <a href="https://chathamlibraries.org">chathamlibraries.org</a> (403 to text fetch this run) / <a href="https://www.chathamcountync.gov/Home/Components/News/News/17638/19">chathamcountync.gov news</a></li>
+<li>Johnston/Clayton — <a href="https://townofclaytonnclibrary.libcal.com">townofclaytonnclibrary.libcal.com</a></li>
+<li>Harnett — <a href="https://harnett.libcal.com">harnett.libcal.com</a></li>
+<li>Granville — <a href="https://www.granville.lib.nc.us">granville.lib.nc.us</a></li>
+<li>Lee — <a href="https://leecountync.libcal.com">leecountync.libcal.com</a></li>
+<li>Alamance/Mebane — <a href="https://library.alamancecountync.gov">library.alamancecountync.gov</a></li>
+<li>Franklin — <a href="https://www.franklincountync.gov/200/Library">franklincountync.gov/200/Library</a></li>
+<li>Person — <a href="https://personcountync.gov/government/publiclibrary">personcountync.gov/government/publiclibrary</a></li>
+<li>NC State — <a href="http://calendar.ncsu.edu/calendar/2">calendar.ncsu.edu</a>; UNC — <a href="http://calendar.unc.edu">calendar.unc.edu</a>; Duke — <a href="https://arts.duke.edu">arts.duke.edu</a> / <a href="https://duke.libcal.com">duke.libcal.com</a></li>
+<li>Wake Tech — <a href="https://www.waketech.edu">waketech.edu</a></li>
+<li>NCMA — <a href="https://visit.ncartmuseum.org/events">visit.ncartmuseum.org/events</a>; NCMNS — <a href="https://naturalsciences.org/calendar/events/list/?tribe_event_display=list">naturalsciences.org/calendar/events</a>; NCMH — <a href="https://www.ncmuseumofhistory.org/events-and-programs">ncmuseumofhistory.org</a>; ML&amp;S — <a href="https://www.lifeandscience.org/explore/events/">lifeandscience.org/explore/events</a>; Morehead — <a href="https://moreheadplanetarium.org">moreheadplanetarium.org</a></li>
+<li>Flyleaf — <a href="https://flyleafbooks.com/events">flyleafbooks.com/events</a>; Quail Ridge — <a href="https://quailridgebooks.com/events">quailridgebooks.com/events</a>; Epilogue — social posts via <a href="https://www.foodyas.com/US/Chapel-Hill/562292130952869/Epilogue-Books-Chocolate-Brews">foodyas.com</a>; B&amp;N Cary — <a href="https://stores.barnesandnoble.com/store/3431">stores.barnesandnoble.com/store/3431</a></li>
+<li>DPAC — <a href="https://www.dpacnc.com/events">dpacnc.com/events</a>; Carolina Theatre — <a href="https://carolinatheatre.org/events">carolinatheatre.org/events</a>; PlayMakers — <a href="https://playmakersrep.org">playmakersrep.org</a>; The Cary Theater — <a href="https://thecarytheater.com/events-list">thecarytheater.com/events-list</a></li>
+<li>RaleighParent — <a href="https://raleighparent.com/events/">raleighparent.com/events</a>; Triangle on the Cheap — <a href="https://triangleonthecheap.com/events/view-all/">triangleonthecheap.com</a>; Eventbrite — <a href="https://www.eventbrite.com/d/nc--raleigh/teen-party/">eventbrite.com/d/nc--raleigh</a>; Meetup — <a href="https://www.meetup.com">meetup.com</a></li>
+<li>Activate Good — <a href="https://activategood.org">activategood.org</a>; WALTER Magazine — <a href="https://waltermagazine.com/events/what-to-do-in-raleigh-in-october-2026/">waltermagazine.com/events</a></li>
+<li>Morrisville PR — <a href="https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Program-Guide">morrisvillenc.gov program guide</a>; Cary PR — <a href="https://nccaryweb.myvscloud.com/webtrac/web/Splash.html">nccaryweb.myvscloud.com</a>; Raleigh PR — <a href="https://reclink.raleighnc.gov">reclink.raleighnc.gov</a>; Durham PR — <a href="https://www.dprplaymore.org/436/My-Durham-Teen-Zone">dprplaymore.org/436/My-Durham-Teen-Zone</a>; Chapel Hill PR — <a href="https://webtrac.townofchapelhill.org/wbwsc/webtrac.wsc/search.html?display=Detail&amp;module=AR">webtrac.townofchapelhill.org</a>; Apex PR — <a href="http://www.apexnc.org/peakconnect">apexnc.org/peakconnect</a>; Holly Springs PR — <a href="https://www.hollyspringsnc.gov/1497/Registering-for-a-Program">hollyspringsnc.gov/1497/Registering-for-a-Program</a>; YMCA — <a href="https://ymcatriangle.org/programs/teen-programs">ymcatriangle.org/programs/teen-programs</a></li>
+</ul></section>
+</div></section>
+</div>
+</div>
+</body></html>
